@@ -1,0 +1,32 @@
+from transforms.api import transform_df, Output, Check, configure
+from transforms import expectations as E
+from myproject.datasets.utils import get_removed_inputs, perform_removed_union
+
+domain = 'note'
+id_col = 'note_id'
+inputs = get_removed_inputs(domain, include_omop=True, include_pcornet=True)
+#  include_trinetx=False, include_act=False, include_pedsnet=False)
+
+
+LINTER_APPLIED_PROFILES = [
+    "KUBERNETES_NO_EXECUTORS",
+    "DRIVER_MEMORY_MEDIUM",
+]
+
+
+@configure(profile=LINTER_APPLIED_PROFILES)
+@transform_df(
+    Output(
+        "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/LDS Union/removed/unioned_{}".format(domain),
+        checks=Check(E.primary_key(id_col), 'Valid primary key', on_error='FAIL')
+    ),
+    **inputs
+)
+def my_compute_function(ctx, **inputs):
+    for df_site_name in inputs:
+        if "note_class_type_id" in inputs[df_site_name].columns:
+            inputs[df_site_name] = inputs[df_site_name].withColumnRenamed("note_class_type_id", "note_class_concept_id")
+
+    df_out = perform_removed_union(ctx, domain, **inputs)
+    # df_out = df_out.repartition(10)
+    return df_out
