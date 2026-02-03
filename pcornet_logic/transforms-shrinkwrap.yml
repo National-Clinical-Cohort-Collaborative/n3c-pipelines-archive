@@ -1,0 +1,1935 @@
+mappings:
+- alias: "/N3C Export Area/OMOP Vocabularies/concept"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+- alias: "/N3C Export Area/OMOP Vocabularies/concept_ancestor"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c5e0521a-147e-4608-b71e-8f53bcdbe03c"
+- alias: "/N3C Export Area/OMOP Vocabularies/concept_relationship"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+- alias: "/UNITE/AOU Tribal Zip Codes/Tribal Zip Codes"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.29c4419f-56ed-48af-8038-7178f27c3acc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: ACT/Reference Tables/ethnicity_xwalk_table"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b0e5d144-3ceb-4ea1-9edd-843ef2bf5c8b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: ACT/Reference Tables/gender_xwalk_table"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7b494627-e6fb-4def-879b-a58a0f6d51d2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: ACT/Reference Tables/race_xwalk_table"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4212d6b2-b968-4a6d-905d-f4ccb38febab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: ACT/Reference Tables/visit_xwalk_mapping_table"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6f475189-e4bc-4cac-8341-5dbaf03fbbd5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/metadata/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e4fb06b5-35c6-4d73-b962-506a8bb28903"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/metadata/data_counts_check"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.029f63ee-bf2d-481f-aa38-59882fdd01fb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/metadata/data_counts_filtered"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cdb997f6-2602-4538-8e12-e159685ef8eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/metadata/manifest"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7835d63a-7c5f-4de2-acf1-8839464910a7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/metadata/payload_status"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.968dd839-1530-489f-8b9a-f44e52b98b4f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/metadata/unmapped_covid_labs"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.db7f8f57-19d5-44c2-b40e-f661c3176e2c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/00\
+    \ - unzipped/payload_filename"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ad10d3ee-314e-4503-b871-87ec1e0ef8ab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/00\
+    \ - unzipped/unzipped_raw_data"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dfb208b0-ab0c-4b8c-891b-3005e4dc895f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/cached/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dd9b2c54-9e5e-40cc-99d8-d7452b03901f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/cached/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9b2a91f6-e6f2-4a17-8edd-135b6e508e1c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/condition"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.73d9c778-e865-4908-ba33-2f718cf5d0d3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.65f25001-51ed-4758-8e93-de40940770f6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/data_counts"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8c7f3de5-95ef-403e-b7e3-6fb98a257ca5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2a32d482-6aeb-4055-88e5-52c03be2b29a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/death_cause"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8fca793a-88c0-4b4e-97ce-aa3658fa407c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/demographic"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.13d4fd68-2b64-466d-8dfd-f7b12ab54223"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/diagnosis"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0c6e733e-ddaa-4fd2-bd66-e91050e3f2ab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/dispensing"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fb0490b3-8f7c-4260-99df-7c5548744d3a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/encounter"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.33d2d892-8f07-46bc-a743-3a6a589db52d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/immunization"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.636382fb-508b-412e-ba89-0774170998f9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/lab_result_cm"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7f6aa88e-ef25-4f34-97ca-4a83e2f95c91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/lds_address_history"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8805e171-4184-4313-99dd-bba103252bce"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/manifest"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fe85cd7f-ff61-497f-9174-dd21c2184be6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/med_admin"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a340ecc5-f0ea-4ba0-82fe-3aa899303410"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d1465b2f-a4d4-4036-ad57-e35ca64e3a57"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a22d8779-8339-4065-ac6a-74eba1f6138b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/obs_clin"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4c18da4c-cdd7-4afc-9a72-a72bda85cbd9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/obs_gen"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8aed23f3-06c4-4bb1-991f-a288bad31b97"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/prescribing"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.488e6415-ee38-404c-ba64-c4588892f56c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/pro_cm"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e3dcda44-0dd6-4648-9baa-1659ee0291a1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/procedures"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3f176845-1d6b-4890-a4e5-f00bd019dd0c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.143b2096-1421-42c1-b27b-4d1673a2fd2c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/errors/vital"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.36432c17-0fd3-4707-8df1-526ebe1a93ed"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/metadata/data_counts"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.28c1c2ae-daa8-4233-a334-3fb97a01fdb4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/metadata/manifest"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0a7b2207-2377-42d1-941c-c1b7174560d8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e4f1a39b-1955-44f8-b795-80cb1a282fe1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/death_cause"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f59ef406-a715-4f7f-abd0-e300c78d397d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/dispensing"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d992327f-035b-45db-9b0f-6a88e542dc9d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/immunization"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.db08a33f-d995-43c2-867b-0bcf804d4d03"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/lds_address_history"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9eeedbda-aa86-46c9-b112-08ca2b5bf01d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/obs_clin"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c1bb1a33-8611-47c8-b3b6-b77f65fd3201"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/obs_gen"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1513d3a-a7be-4080-8846-ecf2fcbfd287"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/pro_cm"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f73a0868-7795-4e21-957f-eaf5b3c2a396"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/optional/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e8dcfebe-0fda-4192-b547-fb727d5c1314"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/condition"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1cbc28fb-0977-4294-804c-168deecd988b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f3d1626d-3725-4dff-95a3-fa05d429541b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/demographic"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c0d15a2d-f23e-4f36-ad33-bbc25e177fb2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/diagnosis"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.113ca8ab-c62c-4e9b-a21f-b55b911af698"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/encounter"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f18ddef8-34d6-474f-8140-1d68bb584d06"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/lab_result_cm"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.beb23be2-83b3-44e6-9a2d-756046be6d17"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/med_admin"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6f403e91-4c60-4b9d-89a0-dc0e6cf12dab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/prescribing"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0116f055-3bd7-43a0-9452-173cd36172ab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/procedures"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0c0aa3fb-c432-4a67-8364-9e8060d6ef1e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/01\
+    \ - parsed/required/vital"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3158c5ac-7de6-4bec-89a4-f09032f647d9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/condition"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.742cea39-79b7-4243-b6f4-ee93dc0ed65c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.784f5e68-60fa-4981-9786-1b99670337ef"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.84775fc1-bccf-4e9d-adb3-4b956909e1bf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/death_cause"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6e6841bb-e370-417f-a699-c17495f454bf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/demographic"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3732aead-0564-4e7e-9e8a-70900ff35d13"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/diagnosis"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b7cc394f-eeec-46ef-82c1-371e4a472d60"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/dispensing"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8b121454-e48e-450d-bccb-bad65b86d529"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/encounter"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a7a16984-688c-45a1-91bf-c0eb53898fe3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/immunization"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a508ba97-c5e9-4274-8714-588e27f145eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/lab_result_cm"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.62610ec0-c3be-4b42-ba2c-f453cfa7c295"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/lds_address_history"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a2da44ef-bd26-47e1-9dba-81a1d7a180c3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/med_admin"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.10977e76-da84-415f-a309-357eb165001d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7f7be771-a31f-45f9-9650-d6dfd09ed91f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f5a97cef-3f3e-479e-97d4-6baea8aa9d19"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/obs_clin"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b7818168-cf8a-4fac-af13-b4d2aa2d733b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/obs_gen"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.df60355a-f4e9-49fa-bef9-b58c5602f62b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/prescribing"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3efa9758-51a7-46c6-aed3-eb1faf836b02"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/pro_cm"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8a79b130-fd50-423b-a057-7da444ca259c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/procedures"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.09f14339-dceb-4356-b292-a238980ef4c5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.12105d2c-4470-4068-a2c5-b3caf1f2e750"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/02\
+    \ - clean/vital"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d1c77dc2-b69c-4754-ab70-716a923d01ac"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/condition"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0c17b2c1-862d-4103-9c4d-25507bcc13e4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.053a192b-f4ad-4fa4-8ef9-4b05f69d038e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.905b16b4-cfff-44bf-bf5d-5dabf9a2ca76"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/death_cause"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.781f51c6-3213-41a6-9764-292238ae9866"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/demographic"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ef9e40d3-9847-442c-98a6-80c6becfc6b9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/diagnosis"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.eafe63b1-42db-4f3f-ac2f-0b96f91c5260"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/dispensing"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5f3a9356-809c-465d-8725-f52dd918bd3c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/encounter"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.710e7df0-575a-4b76-b799-bc0488f10e68"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/immunization"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.858a2339-3e51-4954-ba88-149584aab79d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/lab_result_cm"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.634e56ef-35da-4cbb-9290-cf8950708c92"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/lds_address_history"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5d998a43-1e3d-40d1-85fa-e44564cef17f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/med_admin"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4b6a2c8d-b352-4574-9861-3bfc764b0900"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9058f815-8f3e-491d-aa0a-3fef577a0493"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4296ccff-9296-431e-8f1d-63e6470e6ec5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/obs_clin"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3dacc398-2418-4bd9-9dac-4a67a1e000ad"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/obs_gen"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b52c4215-d873-4931-a8a8-455282ec9a06"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/prescribing"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.97e347ba-1a02-492f-8443-f0859a898389"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/pro_cm"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7769b85a-98eb-473b-a414-843d7c7ffde3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/procedures"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.da113963-4e92-42a2-9477-2591001cfcc1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.978e3d3b-cf16-4f0d-9440-7d349808d0cb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/03\
+    \ - prepared/vital"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fbe7f6f9-c4de-4562-8f71-733706fbf168"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3e850057-9683-46a7-8ba7-e73b301c918d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a1945c5e-2642-448d-963f-2a74fe805d5c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7535361b-408a-40c4-8b34-3e782fc6c8c3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8539a730-19b9-4109-ab25-1c007cb4e3ae"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.071a4b37-c925-4738-bc46-d8af8676d885"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f2557c45-d0f5-42ae-a8d7-43301380be00"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/dqp_procedure_in_visit"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.09a4bde5-4657-46d2-a95c-df8ab07df703"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9643a1a4-cddf-4752-9a18-26f17497de04"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0164a55d-e593-4508-b2b5-7cd9bb2f2bbe"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e73b989f-e8ef-48db-b517-6a7498ca1fd0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.93dd35f5-b61d-4dac-ac0b-e5561310af58"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.35175458-8ed6-485a-b923-007329888b9f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.830300aa-2728-438d-904a-4a228d3e569f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0a7cc5a4-8681-4f2a-8b3b-956fd159352c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9b7f68eb-3564-4cb3-b019-659f7e49c5af"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/payer_plan_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.01dd1a33-c65f-4f13-8d20-03d9093a94a2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.139dc174-3e09-4ed7-bec0-28d70d5b550a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9eaa3af1-9d8a-4186-8291-b0e45a1fb3b3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.023f48b1-f14a-409e-a948-abe1e9b8c758"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.248c6a6c-ed96-4960-8dc2-8ac16a830b64"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/04\
+    \ - domain mapping/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.419a0f18-8aa3-4459-9df8-c5b8b43f09b4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.72c1fe18-352a-417b-b742-771314abbcc1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7974e8fa-7f7b-46ca-ac0f-64e0e154d7a0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.23c7b053-1a7e-4aef-bcb8-ee2d73528f69"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0ce78000-1d4c-4a11-a97c-23797fda6abf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1b28f1a4-c9bd-453a-b355-e6fa0163b62e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.625b4141-5725-409c-9c6e-723eb52b8b69"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.37132de2-d82c-43b1-bfda-c282e5861047"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.57c3adc0-be8f-4267-9cd3-9946c88b6c2b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.79ee70b6-99d3-45c1-9186-5e8236db8809"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e0efa6f-cbc9-48e7-9a2c-9c1a09e64b11"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.45ed6bc4-03ca-4824-b48a-7111e283ae10"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a784acd3-9a47-471e-8258-0dae18a43eec"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.98a14d44-49fc-4e29-b064-1147b4e64ccd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/payer_plan_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d5808483-5489-4286-bd1f-ab427a442e6b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.38a0c589-55cf-47db-8a27-4dc9c95f067e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.42a16179-8fe9-4c5d-bfd1-d4e09ab7d303"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.af8ca11a-7564-47b1-b5c2-bef8fcfb1456"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d45117b1-eb7f-48b8-be61-38d70bacb24d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/05\
+    \ - pkey collision lookup tables/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.bdeb5c7e-94b8-440a-b758-eb25469128a3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.77dfa3b9-a0dd-4e68-ba60-19eed9e6e093"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e0831d56-f894-461d-8c20-fd534ccfe845"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5089ce8b-2590-4350-b32b-b4a65270f5bd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.38ea0427-e3b9-4209-8de4-86d8eacafaf5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.21ec0519-a902-418c-b752-8829bba1ef0d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.08b50842-6274-4982-b44a-8e2fa23dd83e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8128ef86-4618-4f1c-84ac-93f46b6d5724"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c5d902c7-365f-48f1-a021-11be8d519738"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.09144310-cb71-47d5-a9e3-5442423b11df"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7ea69b5b-21df-42fe-b931-c27557128143"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7d414175-553f-4dd5-a86f-b9e93e13df05"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.49379424-580f-4547-8174-c59cb7b55c6b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0634b612-775c-4846-bae2-988f4332866e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1d757361-0da6-43b4-8a37-e6ef5a1168f3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/payer_plan_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.24f8c03a-af20-4c9f-b860-ef4e075dbb43"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9051650f-db46-498d-b272-b654acea0e3f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2e613386-ebaf-473b-bb6f-f4d368c9596a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.299f17c7-4dfa-4942-82ee-66021763120b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c3907188-89d4-4148-a8d1-3007c9f1d44d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/06\
+    \ - id generation/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f1cd12a9-7491-4378-83de-97c582c67c7f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a25e63d1-6d78-49a5-bd67-0bc564d781b6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.066905cd-5ec8-462e-a6d6-5762bab71daa"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6c3ee041-1f22-4731-b544-de8723aef7ca"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.254cc602-50ba-4634-bfea-f09d0af201a7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7e31bf4c-c6da-4f8e-9b36-f866a659e54e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1f99821f-4c11-4088-829b-ca54b11b0a33"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9bfb74a7-cfd9-4ae0-b328-4a78b238fcd4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fbe9835e-1be5-4f46-8ad0-fbe69cf86acb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8dce9881-0d1f-4589-9846-151b04e0ae59"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.191d07ad-1659-41dd-93bf-f34561333965"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.92fc1854-8b64-4d84-af3d-41c20089d3b3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.06935d77-bda0-4ea4-a86c-0d54a9243c47"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7ac4674b-6184-4e6c-90e0-7c4948caf890"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.09bb5040-ae3a-4b1a-8015-1e96b3af7617"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/payer_plan_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8cda498c-bc8d-4215-bd65-d0893014c8eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8bc76dc0-7bc6-4a3b-921b-d5cd30223654"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5ca12a8d-de05-4778-8a1b-44b36926ae31"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d76a7130-a475-499c-aaad-14fd62a53969"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ac4df0a8-44e9-4fa1-b131-0dda6a7f0fba"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/nulled/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4cf3fbb2-b9e5-4aff-8e70-dc3759943f1d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/pre_clean_removed_person_ids"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.278908a1-8532-4d0a-905c-e7852f1d9015"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e6896f9e-8203-4e04-a365-c57c9d179019"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.88254ede-fb7f-41be-94ee-5b2f8b345694"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.51b34a75-ba26-4973-aae5-9cf313139d32"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0966b0f5-e2be-498b-a5a4-26e48437252c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b3a854b9-356d-4f13-ae49-1d89130e1dae"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d9701c98-a1d4-4810-ab87-18f8f9d8d371"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.53240e0a-3bd8-4cba-b427-7f382421f60c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.08937465-a7cf-4086-befe-74f53d4e6d85"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9dda8290-2463-41eb-a934-23afb34c0381"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a6599689-a140-4a4b-a1a6-c8c20ab7d7a4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a53d2c00-f3a5-4678-9527-5bc3b2c74fba"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9f390ce5-ec23-4ea9-a8f0-9b7b71556171"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.990f73d6-e953-4927-902c-e0020045adb4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.594ec6c1-cc63-4d05-af00-d6d4c52f0645"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/payer_plan_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.48f2cb3b-9eab-4d7c-910a-05e492dd2c0b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.31882534-be8c-4581-8b1a-b9891ba3912f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8ef46ddf-fdf1-4cf6-a115-33a800c9510d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.07b26b46-25ab-405f-8b03-86e608aeb6ec"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2eaa4909-d64f-4950-8671-436adff547fe"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/processed/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1c2d9888-3afb-4bd9-8dab-a34f93d055d0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.84d177b6-e2a8-482e-9b86-9bc15baca845"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6fc99f56-d17c-4c84-b782-58993940f78d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8cc0ae0f-7485-4798-a63a-72f469ae593d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3b839da6-4d7b-4867-ae02-ef1532145482"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4a846f62-8034-4d78-a28a-e0c5ddd3c4d0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.281d3c5c-75a6-4afb-addd-9f5d39efbcba"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c2dbaf06-400c-49fb-bd4e-57fd581d6aa2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.721c1cf5-7864-4d76-bb8c-d3cbc02a36f0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2b7dc09e-7e12-43f2-a744-bd4e599d89da"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b7fed1b3-fdb8-427a-aa6d-442e1adb17af"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b894efbe-0f5d-4448-9468-620b1db7852d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.924356d5-3d46-479d-bb79-8726cb867644"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.097dd734-6435-4bda-bde9-588f74027ffb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3081968a-e50d-4467-b684-dcbef5beba27"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/payer_plan_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1cce0a8-2116-4c48-9bfa-b29228d49584"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.980ef699-4cea-47e6-bd26-32d1e67c6656"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.28b58b67-b160-4ddd-a63e-183d119d2769"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.93f24c61-8c5b-4e90-92b8-877110adf00c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ee6dcd3b-badf-4f6e-be40-2da5669fdc9d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/07\
+    \ - pre clean/removed/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c549cfa5-8cc1-45de-b9b6-a15ac73f54a2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2a14c773-072e-4fb6-8ca4-bf0cbee933a8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.60b9bd77-894b-42ca-b95e-436961d6fc90"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.74e2d767-6de7-4f01-bcc9-9c0cbfffb0dc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.68f37a60-15d5-4bb0-befc-3386ad46409c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.41d03426-e50f-459d-8c00-ebd5380f3c19"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.034ef636-87f5-4291-90a7-91632bb6ee35"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.57b74e19-85f3-4fc7-a851-1f13ccdf35f4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f21f7fea-f58a-468c-aef1-c33e0c3c0237"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b78cb2cf-b6c0-4db1-ad3a-0a1fc992eae7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a0270b99-753c-4bfb-8078-9a6af9b15773"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2179f2af-55fe-4195-8070-ffb9ab34c88b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c04478ce-1d71-4f34-8bfa-fb1acd0fe51c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c395a896-2d3e-47f4-bf4c-74c4fd30ff41"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ef5f1238-727d-4adb-bef4-beb909560f8d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/payer_plan_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ce5488a1-9218-43ac-9b04-0d7885075176"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c8edf33e-6136-4d6a-b7b7-1b1b183412df"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.52c51bae-faa8-4684-9de6-ec82ac617bb6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b7c3a721-3c58-4004-96d8-d89ea77455c5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.07bdbdc8-3c5d-4d18-a794-f8bb8bc1eb46"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/08\
+    \ - clean/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9d1acd07-a667-4e18-bedd-aa815f824afc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a2930573-ece1-42ef-b50d-af3664a131f1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8852074a-5e55-4707-9b1a-2db63c27bedb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.96ff9399-a81f-40e8-9305-7be93b95bfa3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.73e9173f-e3ff-41ab-b97f-5df86fcefa8a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fb3eef7b-0676-4c96-a3c1-e2d5ae0e3269"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d7b59c5c-bc0b-4a7b-988a-d2197951289e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fe4af05f-6ce1-4b5f-ac56-12a45dd839e2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.76111431-4202-459d-b2c6-2f7f5102d462"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5435856c-8495-4193-be36-7f497c30d83f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f610c533-6a6a-4e57-a9cd-cc58a12bf69c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0a747b18-df66-498c-a3c9-78a0c9c9d00d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.39da235a-8513-4433-a17b-c395df053831"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8ce2fde5-86c0-48a2-b435-980e973b2e9e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cd411470-ff54-4e8b-b1c4-bca7557a591f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/payer_plan_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6d3db084-9f2d-4e00-9ca9-360f92a86362"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.94911d37-ad94-444a-85f0-f033a7a2e4ef"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2f96e3b4-10bc-4b32-a5ae-08130336d34f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6991b828-04a4-48cf-9311-e8f3f4bce1c1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6274eb78-145b-4472-bfa7-f88e3e738656"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/09\
+    \ - final health check/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.573a97f0-745f-45d9-b21b-765abccc9fc6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/answer_code_xwalk"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9c88070e-c967-4662-a45b-73bd72b579b1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/p2o_code_xwalk"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.05c59431-1c54-4ef8-a475-b3772d8e830f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/transform/vent_code_xwalk"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b2c4b372-e1f1-4098-8680-50ba08658a08"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f8946ca4-5cb2-4cb0-af86-2afa5532d5a9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ff67d4e4-da48-4f2b-98f4-db67ac918757"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.adda4727-2b9c-43d5-9fa0-de7fb7aecdab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3d174ed3-7db2-4a34-b7cb-88ac96ba75d2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fd0bb237-0a02-42a5-8c0f-0d4f65ceb1f3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d287221-b3de-4fc7-aa06-5ebb46952254"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ee79c527-c9f9-4a04-a1f6-4cc475f9a1f3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.61046bc6-6039-4cec-a018-915fd14d22ee"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4abb92d6-1f00-46b9-9f0d-370031f47a7f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e723b83d-4c9e-4a35-839f-6b7f1c160bc1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6df23482-dc64-434e-974c-24fd3f1e105c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5a0350bc-ed92-4bde-a41e-f81ba53fc7de"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.29b60aa0-6c2a-4293-877a-065cc95734a8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1714f832-1d1a-41c8-9fc8-64226b53feec"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/payer_plan_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c57195d7-31fd-43b1-b696-2fa81311625e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c401af12-8699-4873-abaa-1f2acb2dfef6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.bdec7802-4cd5-4f2e-a9a3-2e901cdb547b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fef7f9f6-277e-4f50-9c7c-d6fb2a3071a9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c60c9db9-7c63-4278-af52-d86fb472df2d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/Site 793/union_staging/staged/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9e6b104a-f442-43a0-b851-25f13e6a081a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PCORnet/p2o_valueset_mapping_table"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9cd6e457-ddf3-416a-9bad-ffc36b30fcf3"
+- alias: "/UNITE/LDS/AHRQ Safety Measure/ahrq_code_xwalk"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4540b6c9-cbb2-45f7-8c08-35e24b27e0c8"
+- alias: "/UNITE/LDS/LOINC Codes to Remove/loinc_codes_to_remove"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0895fb38-6c41-4146-a30f-9213c78f6e80"
+- alias: "ri.foundry.main.dataset.0e1acd60-6eeb-49e1-9189-1b8a6221ac29"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0e1acd60-6eeb-49e1-9189-1b8a6221ac29"
+- alias: "ri.foundry.main.dataset.1903fd58-638e-4907-86ea-90479fcacbd1"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d0a8a7ff-6b5f-4982-a2a6-bec3ac34da8a"
+- alias: "ri.foundry.main.dataset.4d4cf17b-9dfb-48e8-bb19-4f62960b75ec"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3332ae36-a617-4ec4-bfde-b4d5a3cc6fbd"
+- alias: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+- alias: "ri.foundry.main.dataset.c3aebef7-8250-47f0-be8b-d0f1fb46d17a"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c3aebef7-8250-47f0-be8b-d0f1fb46d17a"
+- alias: "ri.foundry.main.dataset.d015309d-d819-4566-9a2c-47508cd73587"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.351cb4fa-1ed6-4628-8512-463c9184fd13"
+- alias: "ri.foundry.main.dataset.d92383f5-ee45-404a-9f12-a527b14f5bef"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d92383f5-ee45-404a-9f12-a527b14f5bef"

@@ -1,0 +1,1771 @@
+---
+mappings:
+- alias: "/N3C Export Area/OMOP Vocabularies/concept"
+  modes:
+  - "READ"
+  path: "/N3C Export Area/OMOP Vocabularies/concept"
+  rid: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+- alias: "/N3C Export Area/OMOP Vocabularies/concept_ancestor"
+  modes:
+  - "READ"
+  path: "/N3C Export Area/OMOP Vocabularies/concept_ancestor"
+  rid: "ri.foundry.main.dataset.c5e0521a-147e-4608-b71e-8f53bcdbe03c"
+- alias: "/N3C Export Area/OMOP Vocabularies/concept_relationship"
+  modes:
+  - "READ"
+  path: "/N3C Export Area/OMOP Vocabularies/concept_relationship"
+  rid: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+- alias: "/N3C Export Area/OMOP Vocabularies/vocabulary"
+  modes:
+  - "READ"
+  path: "/N3C Export Area/OMOP Vocabularies/vocabulary"
+  rid: "ri.foundry.main.dataset.0e1acd60-6eeb-49e1-9189-1b8a6221ac29"
+- alias: "/UNITE/AOU Tribal Zip Codes/Tribal Zip Codes"
+  modes:
+  - "READ"
+  path: "/UNITE/AOU Tribal Zip Codes/Tribal Zip Codes"
+  rid: "ri.foundry.main.dataset.29c4419f-56ed-48af-8038-7178f27c3acc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Reference\
+    \ and Mapping Materials/pedsnet_visit_xwalk_table"
+  modes:
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Reference\
+    \ and Mapping Materials/pedsnet_visit_xwalk_table"
+  rid: "ri.foundry.main.dataset.f795fdc1-71a3-4759-8f90-3c6d27be5fd4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/control_map"
+  rid: "ri.foundry.main.dataset.d084ce60-e78b-4e9b-be75-3a4d48252876"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/data_counts_check"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/data_counts_check"
+  rid: "ri.foundry.main.dataset.7c1914c8-2c00-4b39-a561-9a1dcda7c273"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/manifest"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/manifest"
+  rid: "ri.foundry.main.dataset.154e0f0b-9320-4751-b457-a3a4c7c192a6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/payload_status"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/metadata/payload_status"
+  rid: "ri.foundry.main.dataset.56f07aaa-a55b-4f02-ac30-7a51f99b7269"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/00\
+    \ - unzipped/payload_filename"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/00\
+    \ - unzipped/payload_filename"
+  rid: "ri.foundry.main.dataset.034be489-9f29-4417-8d8c-e2dee7ca0bb1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/00\
+    \ - unzipped/unzipped_raw_data"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/00\
+    \ - unzipped/unzipped_raw_data"
+  rid: "ri.foundry.main.dataset.61f633b2-f68f-479b-af72-5a0ac0b40bb7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/care_site"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/care_site"
+  rid: "ri.foundry.main.dataset.064bf78c-d219-41c6-b7d6-fed4a7c5eb21"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/condition_era"
+  rid: "ri.foundry.main.dataset.07833adb-1800-4774-a3f6-5abefe11888e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/condition_occurrence"
+  rid: "ri.foundry.main.dataset.73d2e31e-41bb-4720-ae88-4a41efbc27eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/control_map"
+  rid: "ri.foundry.main.dataset.1809b588-344d-43b7-b6e2-5aa8b8545b1d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/data_counts"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/data_counts"
+  rid: "ri.foundry.main.dataset.4b24d3fb-19ce-411e-9f9c-30aeaf773486"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/death"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/death"
+  rid: "ri.foundry.main.dataset.ae31f79c-a5a0-4bfc-998c-66ade7e9684e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/device_exposure"
+  rid: "ri.foundry.main.dataset.7b2c3480-2a47-4756-a8cb-54f64fb9954a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/dose_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/dose_era"
+  rid: "ri.foundry.main.dataset.d79f3648-c559-4e09-a99d-2837a172fa46"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/drug_era"
+  rid: "ri.foundry.main.dataset.2ccb9415-4be1-43df-8adf-cd228d80c77a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/drug_exposure"
+  rid: "ri.foundry.main.dataset.878d8923-90a3-4ac6-ae1b-b353ac49cc65"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/location"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/location"
+  rid: "ri.foundry.main.dataset.d8b3ce3c-8120-468e-9756-8b81bfe27b72"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/manifest"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/manifest"
+  rid: "ri.foundry.main.dataset.3253e6ef-a487-4523-b281-8323a9a24ae4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/measurement"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/measurement"
+  rid: "ri.foundry.main.dataset.e9aca1e0-fa40-4c16-9acd-1d53ac3c1777"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/observation"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/observation"
+  rid: "ri.foundry.main.dataset.9257d6b9-9b66-48cf-b55a-b0bea071cab2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/observation_period"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/observation_period"
+  rid: "ri.foundry.main.dataset.d519bfa9-e167-410d-88b4-788b6a9cb993"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/person"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/person"
+  rid: "ri.foundry.main.dataset.45a5b3f1-86e1-4e03-9b95-be60b936ab81"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.0a2cee9b-35d0-4d55-8edf-e11923677937"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/provider"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/provider"
+  rid: "ri.foundry.main.dataset.bbc9fde1-3eb6-4f7d-9c7a-78f61dbf6b4b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/visit_detail"
+  rid: "ri.foundry.main.dataset.0e4fa995-8351-4e2f-98de-af27297a482e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/errors/visit_occurrence"
+  rid: "ri.foundry.main.dataset.07c9250d-cd24-44d3-bee2-98d50d7314a1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/metadata/data_counts"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/metadata/data_counts"
+  rid: "ri.foundry.main.dataset.b8e206a9-0e62-4972-944f-0a8f99420a3d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/metadata/manifest"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/metadata/manifest"
+  rid: "ri.foundry.main.dataset.01c6c57b-26f5-4bd3-b2f5-7d6c33096733"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/care_site"
+  rid: "ri.foundry.main.dataset.2027b176-021c-4838-ade1-e51023083132"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/control_map"
+  rid: "ri.foundry.main.dataset.5d1cf18e-51b3-4598-84bb-924d3f0cf592"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/device_exposure"
+  rid: "ri.foundry.main.dataset.4ca844e1-8424-40d3-89d3-a91eaa1b5db9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/dose_era"
+  rid: "ri.foundry.main.dataset.149e5d2a-e1c5-4199-b512-db10d091d897"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/provider"
+  rid: "ri.foundry.main.dataset.5bb3e899-bc99-4314-9716-7f4245219b45"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/optional/visit_detail"
+  rid: "ri.foundry.main.dataset.2ac1a9a6-2f48-4baf-85a3-2a40474e90b0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/condition_era"
+  rid: "ri.foundry.main.dataset.6b409afd-ea46-45da-8ddf-65d213443359"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/condition_occurrence"
+  rid: "ri.foundry.main.dataset.cbffd914-4788-4a33-a6d3-3052743ab66b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/death"
+  rid: "ri.foundry.main.dataset.f3f2ad6b-2e40-4e95-b4b9-38cb86f5429d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/drug_era"
+  rid: "ri.foundry.main.dataset.091fab2d-bcb8-4e5d-bd35-061b0c175c34"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/drug_exposure"
+  rid: "ri.foundry.main.dataset.63c79878-5c88-46de-93e6-decf8784190d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/location"
+  rid: "ri.foundry.main.dataset.7c3ca2d8-b378-46e6-ada7-589ea59c8531"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/measurement"
+  rid: "ri.foundry.main.dataset.abddcebc-2e9f-4b82-8562-b14e3b687630"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/observation"
+  rid: "ri.foundry.main.dataset.7b702e62-9bf6-484d-bcf2-62d6a79bd38c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/observation_period"
+  rid: "ri.foundry.main.dataset.ef38d33e-281c-44c1-9f94-e9b5f9504507"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/person"
+  rid: "ri.foundry.main.dataset.a1416eee-bf1b-43da-ab82-f3baea51b2af"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.3a073b72-7a78-450c-99fd-913b359feb7c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/01\
+    \ - parsed/required/visit_occurrence"
+  rid: "ri.foundry.main.dataset.06076ce6-8011-49da-8b48-f367594a308b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/care_site"
+  rid: "ri.foundry.main.dataset.6a5bf237-67c2-45d4-bcb5-4c74f725a4bb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/condition_era"
+  rid: "ri.foundry.main.dataset.97b6aa88-b27d-4769-bd7f-b1de4be78f6c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/condition_occurrence"
+  rid: "ri.foundry.main.dataset.0a3d3b6e-dae5-4880-8f72-313036737189"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/control_map"
+  rid: "ri.foundry.main.dataset.3309da18-fd4c-4565-825e-c497fdd47daa"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/death"
+  rid: "ri.foundry.main.dataset.9427de51-16df-43f9-bbf7-828b67c3ee3d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/device_exposure"
+  rid: "ri.foundry.main.dataset.af4891aa-78f1-4aef-97f5-12d245fc93a0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/dose_era"
+  rid: "ri.foundry.main.dataset.6e3317d2-1862-4e10-a6cd-9851c9e22cfa"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/drug_era"
+  rid: "ri.foundry.main.dataset.479d2b75-d8ff-42c7-8e7e-60a2bfbb4f5f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/drug_exposure"
+  rid: "ri.foundry.main.dataset.2c2d99a8-e721-46f8-8ecc-d6c6be43f81a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/location"
+  rid: "ri.foundry.main.dataset.168a8fd6-77fe-4079-adc3-608f1e211876"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/measurement"
+  rid: "ri.foundry.main.dataset.2a4803f1-7126-40ea-83ce-8b929c2e43e3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/observation"
+  rid: "ri.foundry.main.dataset.31b39974-d3e7-4af7-a2c9-86e2aef83f7d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/observation_period"
+  rid: "ri.foundry.main.dataset.8591a686-f4a7-42da-89da-a9474b91b162"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/person"
+  rid: "ri.foundry.main.dataset.fef2b9fb-b77e-4c2c-87d1-3193777b400b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.cc8ef454-6793-438d-aacf-713684cfc63c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/provider"
+  rid: "ri.foundry.main.dataset.131d1b65-a78f-464e-a185-aa2a05a58a79"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/visit_detail"
+  rid: "ri.foundry.main.dataset.5f3900b6-ba76-4f1e-89a3-df0c79e02500"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/02\
+    \ - clean/visit_occurrence"
+  rid: "ri.foundry.main.dataset.b704f77c-61fa-4900-8791-cb7dcf531369"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/care_site"
+  rid: "ri.foundry.main.dataset.3781aa01-45be-42e6-bc02-4a7e956b9a9a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/condition_era"
+  rid: "ri.foundry.main.dataset.0bc17884-49ca-4101-8769-a834df789023"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/condition_occurrence"
+  rid: "ri.foundry.main.dataset.94976c31-5b77-4f47-91aa-a8a5f62f0dd5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/control_map"
+  rid: "ri.foundry.main.dataset.33e1aee7-a4d3-4127-a31c-79e7a48f98ea"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/death"
+  rid: "ri.foundry.main.dataset.a569458c-40f8-4158-868b-325f8fd8a941"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/device_exposure"
+  rid: "ri.foundry.main.dataset.a259ac16-f527-4908-aa44-016dbea3c73b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/dose_era"
+  rid: "ri.foundry.main.dataset.773bfd5a-7a48-4cc7-af90-93adf4d6cbfc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/drug_era"
+  rid: "ri.foundry.main.dataset.d422e54c-55b5-4595-be74-20ed3745bfbc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/drug_exposure"
+  modes:
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/drug_exposure"
+  rid: "ri.foundry.main.dataset.293d0212-2f37-4058-a2e2-f075b69c681d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/location"
+  rid: "ri.foundry.main.dataset.4dcfc06e-dd5c-458b-8bf5-388b00b09cdb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/measurement"
+  rid: "ri.foundry.main.dataset.92cd3481-14f9-47d8-aaac-fe23637da022"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/observation"
+  rid: "ri.foundry.main.dataset.b98fc694-a106-46f2-bd9a-8ffd865a7b89"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/observation_period"
+  rid: "ri.foundry.main.dataset.90c8ca00-1abb-4930-96b3-4a970e3bbaee"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/person"
+  rid: "ri.foundry.main.dataset.37915dea-65a1-46de-8f96-6b1889bc4fb9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.0c496d1b-79c4-4b88-b148-b5373abb91ef"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/provider"
+  rid: "ri.foundry.main.dataset.96fb53f2-8569-4bf0-98b1-4c14d39dc954"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/visit_detail"
+  rid: "ri.foundry.main.dataset.65526656-5d3c-47bb-8dc4-53bf011c611e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/03\
+    \ - prepared/visit_occurrence"
+  rid: "ri.foundry.main.dataset.a986d112-4eeb-4e08-b7d5-6dc12d504f59"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/care_site"
+  rid: "ri.foundry.main.dataset.85108112-e335-42f4-8069-941684afec97"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/condition_era"
+  rid: "ri.foundry.main.dataset.9eb15948-cbce-4859-af7c-ca9ebc5b3fa4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/condition_occurrence"
+  rid: "ri.foundry.main.dataset.fae32cb7-1411-45e2-80d6-fa76d45f29ce"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/control_map"
+  rid: "ri.foundry.main.dataset.638f3435-5f53-4e8c-88b3-1757cc6b2414"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/death"
+  rid: "ri.foundry.main.dataset.e065b7d8-6cf3-4f3b-9313-f0224021c8ca"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/device_exposure"
+  rid: "ri.foundry.main.dataset.ab701b33-790f-4023-ac26-b0e6677da99a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/dose_era"
+  rid: "ri.foundry.main.dataset.7af2dcdb-0615-4bb5-bc6e-0c59a7a2ba91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/dqp_procedure_in_visit"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/dqp_procedure_in_visit"
+  rid: "ri.foundry.main.dataset.4262bdb9-8134-4864-a1bd-0faafc57f441"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/drug_era"
+  rid: "ri.foundry.main.dataset.52fbed29-341d-461b-803a-529894b0bacb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/drug_exposure"
+  rid: "ri.foundry.main.dataset.a4d6c44c-c750-453c-ac0e-118bf8beecb7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/location"
+  rid: "ri.foundry.main.dataset.5ef1cc3f-20f6-4f00-934f-4efbaac570e6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/measurement"
+  rid: "ri.foundry.main.dataset.69e08580-47ff-4ef8-b15e-93b9dcf6a514"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/observation"
+  rid: "ri.foundry.main.dataset.fd1125c4-f66d-423f-a6f6-7aeafe934eef"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/observation_period"
+  rid: "ri.foundry.main.dataset.35253ec4-1629-47f0-b607-716409a89714"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/person"
+  rid: "ri.foundry.main.dataset.d5003c24-cfb4-4eeb-9a76-00357ea35587"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.7ec03266-56f7-4625-b212-fa222681cb0e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/provider"
+  rid: "ri.foundry.main.dataset.aee8e5c4-c235-4b45-b067-4f3754385901"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/04\
+    \ - mapping/visit_occurrence"
+  rid: "ri.foundry.main.dataset.63f5b17b-d9fb-4ce6-bdb7-baf0befd6c7c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/care_site"
+  rid: "ri.foundry.main.dataset.ca172061-87d2-4478-8f39-1103c2a561f8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/condition_era"
+  rid: "ri.foundry.main.dataset.bc3cb52d-e88e-4e10-acfe-31622a13e790"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/condition_occurrence"
+  rid: "ri.foundry.main.dataset.f563c2b9-e08d-494b-9945-a86ad648319c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/control_map"
+  rid: "ri.foundry.main.dataset.656dc52e-8c08-4b49-98dd-d2e1d6a4abec"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/dose_era"
+  rid: "ri.foundry.main.dataset.b92cc277-f33e-4dbe-90a7-b95ae28caadb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/drug_era"
+  rid: "ri.foundry.main.dataset.b04cf055-8307-46a2-ac00-4b280ae3d7b6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/drug_exposure"
+  rid: "ri.foundry.main.dataset.494409cf-8d56-4ced-8bb7-f687de3ac9b7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/location"
+  rid: "ri.foundry.main.dataset.b4776d29-3a89-40ba-8917-ad317d97e5ac"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/measurement"
+  rid: "ri.foundry.main.dataset.49831650-b433-49d1-b934-afdb716d1dfd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/observation"
+  rid: "ri.foundry.main.dataset.879b6b5f-f4c4-4c89-96ab-79a10cb0bf31"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/observation_period"
+  rid: "ri.foundry.main.dataset.597fc397-1a99-436e-9e47-8058d0c36d2c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/person"
+  rid: "ri.foundry.main.dataset.24c6d6b6-6f49-4cb3-8bf9-4ee7d1a6fbff"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.0b70bf6a-8fbd-4fd2-865b-c18485be62d8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/provider"
+  rid: "ri.foundry.main.dataset.a78ca890-bef9-451b-8f07-1b19e7be0865"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/05\
+    \ - id collision lookup tables/visit_occurrence"
+  rid: "ri.foundry.main.dataset.43d1f538-2213-4069-90d6-74d11309b273"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/care_site"
+  rid: "ri.foundry.main.dataset.5ab89939-bc04-40ce-abad-1bd362613267"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/condition_era"
+  rid: "ri.foundry.main.dataset.f795539e-902c-49f2-8607-0bcc5cbae203"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/condition_occurrence"
+  rid: "ri.foundry.main.dataset.10b63236-4cc1-410e-95ff-0133c46a17a2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/control_map"
+  rid: "ri.foundry.main.dataset.c11b62dd-05b0-4228-8ddb-cee89d662039"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/death"
+  rid: "ri.foundry.main.dataset.10afc936-ce81-4f42-84fe-5e20185b7791"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/dose_era"
+  rid: "ri.foundry.main.dataset.6ac281af-ab1c-4efd-911d-3a96a707e923"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/drug_era"
+  rid: "ri.foundry.main.dataset.2ce820a5-5f47-4346-8137-bf4a6a35a81d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/drug_exposure"
+  rid: "ri.foundry.main.dataset.1f149981-6610-4bfe-9522-0b34fedb9711"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/location"
+  rid: "ri.foundry.main.dataset.1fc6ff2a-ebc1-44d2-bf10-d0449f3c406d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/measurement"
+  rid: "ri.foundry.main.dataset.3a7f3864-66dc-4a88-b27f-f9ab0e4f65f5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/observation"
+  rid: "ri.foundry.main.dataset.5694252b-1ad8-4090-9645-144e93737719"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/observation_period"
+  rid: "ri.foundry.main.dataset.d69ae655-2204-4132-99c9-d6299cbc8a4e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/person"
+  rid: "ri.foundry.main.dataset.d8559049-9b0a-4502-badd-4407856df4ba"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.a364a066-9962-48cc-9c08-092945ecbc65"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/provider"
+  rid: "ri.foundry.main.dataset.267c5460-dcd8-47ee-8d1a-923a72a9ee4d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/06\
+    \ - global id generation/visit_occurrence"
+  rid: "ri.foundry.main.dataset.8f70f6dc-ba78-4984-ab94-07d1f65959df"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/care_site"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/care_site"
+  rid: "ri.foundry.main.dataset.21c8bfce-f250-4d5f-a749-c7c70fb8710a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/condition_era"
+  rid: "ri.foundry.main.dataset.949dbd66-4c90-4233-882e-6a6a1b4d9e71"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/condition_occurrence"
+  rid: "ri.foundry.main.dataset.c2470dbf-f7d8-4f63-a33b-4bf6452b96b0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/control_map"
+  rid: "ri.foundry.main.dataset.a9892a67-ea80-4f3c-9be0-bc71d2e2101f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/death"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/death"
+  rid: "ri.foundry.main.dataset.727693a2-830f-4c37-8f26-2ea60813b18a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/dose_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/dose_era"
+  rid: "ri.foundry.main.dataset.e161d1e0-9635-41a4-960d-f6beadf5a855"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/drug_era"
+  rid: "ri.foundry.main.dataset.97f77a78-5965-41a2-b794-6dd5ac16362e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/drug_exposure"
+  rid: "ri.foundry.main.dataset.3f160873-92db-47ca-bb3b-e267e606d544"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/location"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/location"
+  rid: "ri.foundry.main.dataset.f550c2a1-d2dc-4c30-8919-f5837ceae80e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/measurement"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/measurement"
+  rid: "ri.foundry.main.dataset.aded104e-14eb-48a3-bb39-9dc1e8d35252"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/observation"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/observation"
+  rid: "ri.foundry.main.dataset.f92ad62b-1eb3-4fc4-8e4a-aeb5f6351cd3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/observation_period"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/observation_period"
+  rid: "ri.foundry.main.dataset.68962542-8d77-4f41-a643-3997e3ebec73"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/person"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/person"
+  rid: "ri.foundry.main.dataset.1e3be181-9b12-4581-9f03-df8e9e73080c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.e6b41bb3-f99f-4db3-b547-7e7ba783e607"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/provider"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/provider"
+  rid: "ri.foundry.main.dataset.0aeca02a-77c9-4280-a95e-1d95db8a4f9e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/nulled/visit_occurrence"
+  rid: "ri.foundry.main.dataset.f09b539f-c0a6-405a-9786-2d115bfb7b50"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/pre_clean_removed_person_ids"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/pre_clean_removed_person_ids"
+  rid: "ri.foundry.main.dataset.7e617eb6-a255-40ba-92a5-a3dce0762195"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/care_site"
+  rid: "ri.foundry.main.dataset.82e03384-af5d-4539-b5e0-886cf0b6f625"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/condition_era"
+  rid: "ri.foundry.main.dataset.e9348f26-26d4-4029-9899-ac52d7a24f35"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/condition_occurrence"
+  rid: "ri.foundry.main.dataset.7836d6de-9a5f-4a18-8d83-f20d35dad6f4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/control_map"
+  rid: "ri.foundry.main.dataset.8f58c35c-635d-4ed9-b9f8-a300fe2bcd0f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/death"
+  rid: "ri.foundry.main.dataset.9275fba1-68b1-4222-be50-1c66a9ba2e79"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/dose_era"
+  rid: "ri.foundry.main.dataset.93b89f52-23ab-48f9-bc50-1eca515726f1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/drug_era"
+  rid: "ri.foundry.main.dataset.d1d1b6a0-ed3c-4590-aaff-2ac5a4bc9e07"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/drug_exposure"
+  rid: "ri.foundry.main.dataset.016b14e6-9475-425f-a8a1-51b1cd2170b5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/location"
+  rid: "ri.foundry.main.dataset.c79f1cd9-d7ad-482b-b773-47839c040423"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/measurement"
+  rid: "ri.foundry.main.dataset.14f4fb71-453c-4ed8-a8a1-79aed028b407"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/observation"
+  rid: "ri.foundry.main.dataset.74491e85-0601-4b9a-b617-de132e5c5c5c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/observation_period"
+  rid: "ri.foundry.main.dataset.45d9e36b-6105-4b42-88ac-74c800360f83"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/person"
+  rid: "ri.foundry.main.dataset.28659707-35a3-486e-a51d-fc274559f7fe"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.31fc369d-991e-4d55-9771-cf8fe37d1408"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/provider"
+  rid: "ri.foundry.main.dataset.91726602-c2dd-44d8-88fd-da30398b80f1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/processed/visit_occurrence"
+  rid: "ri.foundry.main.dataset.3b01d075-4be3-4559-88a6-084cb9122c40"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/care_site"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/care_site"
+  rid: "ri.foundry.main.dataset.d1304eb5-ef97-4215-809c-b6540ae96074"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/condition_era"
+  rid: "ri.foundry.main.dataset.13ded614-185b-4e2e-b8a8-399f48d3e4a1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/condition_occurrence"
+  rid: "ri.foundry.main.dataset.5b896e04-21b8-411c-814d-c47f592be95a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/control_map"
+  rid: "ri.foundry.main.dataset.27d942f9-0773-4fc8-b20c-f95f8a0c4e51"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/death"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/death"
+  rid: "ri.foundry.main.dataset.0b28f5bd-1524-4ae1-a6a4-e6a94228c828"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/dose_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/dose_era"
+  rid: "ri.foundry.main.dataset.dea2124f-b717-4d23-94e8-a5f7e9d4fc71"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/drug_era"
+  rid: "ri.foundry.main.dataset.45e19336-1a27-46d4-a000-45891e7ab4e2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/drug_exposure"
+  rid: "ri.foundry.main.dataset.66c5f272-48d8-4ed0-bbb0-138488fc362f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/location"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/location"
+  rid: "ri.foundry.main.dataset.7cc262c0-db16-44c8-af7c-12318adfd564"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/measurement"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/measurement"
+  rid: "ri.foundry.main.dataset.4c680287-edcb-4d50-98f5-3f4726807a64"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/observation"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/observation"
+  rid: "ri.foundry.main.dataset.369f2a73-d078-4470-80dc-d2656931e203"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/observation_period"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/observation_period"
+  rid: "ri.foundry.main.dataset.31c14334-877f-40fe-89a6-10e570d1de93"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/person"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/person"
+  rid: "ri.foundry.main.dataset.3d52589b-5ba3-4108-b988-b7ebcbdb969d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.c9170d37-c6ff-437e-b169-d770666b996c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/provider"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/provider"
+  rid: "ri.foundry.main.dataset.6e3cd84d-412a-4437-b7dc-cd2a824bb407"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/07\
+    \ - pre clean/removed/visit_occurrence"
+  rid: "ri.foundry.main.dataset.e96b2b87-e1fe-4be4-9fdc-67952805d5ca"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/care_site"
+  rid: "ri.foundry.main.dataset.1062d048-6bd3-41ee-b95b-748add8c6566"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/condition_era"
+  rid: "ri.foundry.main.dataset.71b10e3f-d8a4-419f-a388-3f4dd8e7fcb2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/condition_occurrence"
+  rid: "ri.foundry.main.dataset.f043ea23-1819-4fe9-bd7c-182aba68a947"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/control_map"
+  rid: "ri.foundry.main.dataset.81bc9ad7-d922-4dfb-8a40-89936b02af0e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/death"
+  rid: "ri.foundry.main.dataset.c802f1c5-3368-4e8f-bfae-0d15b5ea338f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/dose_era"
+  rid: "ri.foundry.main.dataset.3b8eeea6-89bf-4332-9f77-bc3e5cd54fa1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/drug_era"
+  rid: "ri.foundry.main.dataset.a3fbc9a2-f3e9-437f-9298-2e12cfc95b0b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/drug_exposure"
+  rid: "ri.foundry.main.dataset.d4a1098b-748f-49a4-8c64-92cf189b8ec7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/location"
+  rid: "ri.foundry.main.dataset.c93fb1c7-c8dc-4ee4-80b6-931838400f46"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/measurement"
+  rid: "ri.foundry.main.dataset.4dc040a2-40fb-4eea-ae2f-f28952481258"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/observation"
+  rid: "ri.foundry.main.dataset.785cd4ae-1cbf-4aab-bef9-e4d0d544891b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/observation_period"
+  rid: "ri.foundry.main.dataset.9b97a0b4-ad59-463c-a1e5-b4ab90797180"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/person"
+  rid: "ri.foundry.main.dataset.ee7d6702-bbbe-49b0-8a49-8bc01f767e40"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.ca40179f-fc88-403f-835e-8f01c852dd61"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/provider"
+  rid: "ri.foundry.main.dataset.e679ba63-a997-46df-b570-78eb9a34ed53"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/08\
+    \ - clean/visit_occurrence"
+  rid: "ri.foundry.main.dataset.c064cf86-1882-429d-b572-bc7dc2b0dda7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/care_site"
+  rid: "ri.foundry.main.dataset.a66354fb-d210-4701-a8ea-5dbb537683bd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/condition_era"
+  rid: "ri.foundry.main.dataset.d2999c94-076d-475c-92b0-de4b0976e332"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/condition_occurrence"
+  rid: "ri.foundry.main.dataset.21bd7fe0-fade-4b40-83c6-7b9fa434038a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/control_map"
+  rid: "ri.foundry.main.dataset.f9f03c8b-7e65-43cc-9603-36b1a24a6db1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/death"
+  rid: "ri.foundry.main.dataset.d990d9c3-7843-4a92-a4f9-cec51d33f4af"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/dose_era"
+  rid: "ri.foundry.main.dataset.58c038b3-97ae-4397-ac0a-86c5dc8c5e91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/drug_era"
+  rid: "ri.foundry.main.dataset.c31c492d-30a1-407c-8cb3-8a79f435eca0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/drug_exposure"
+  rid: "ri.foundry.main.dataset.6fcce63b-7d52-4f27-9a45-d07eef57810f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/location"
+  rid: "ri.foundry.main.dataset.10c4eee7-c169-4b39-b7d4-b292ef6092f4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/measurement"
+  rid: "ri.foundry.main.dataset.d47a8620-8737-4741-a05f-72152f917f24"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/observation"
+  rid: "ri.foundry.main.dataset.c23b8701-3cda-43f6-8eb3-c7cfdcff454b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/observation_period"
+  rid: "ri.foundry.main.dataset.4a4c693f-5b32-4891-b8db-e0b1050bc380"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/person"
+  rid: "ri.foundry.main.dataset.4f1f0dc5-788b-4f23-a0c5-44b2a7b675ce"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.6143629e-e592-432c-88a5-aa61fa3a5df2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/provider"
+  rid: "ri.foundry.main.dataset.fff21d6d-bbf9-4c17-8f11-9891e8e7c649"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/transform/09\
+    \ - final health check/visit_occurrence"
+  rid: "ri.foundry.main.dataset.6c11365f-9aa3-400a-b751-cdab11bf1ab7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/care_site"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/care_site"
+  rid: "ri.foundry.main.dataset.02c00a7e-17f3-40d0-b307-74a3b4e6a2e3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/condition_era"
+  rid: "ri.foundry.main.dataset.255fc57f-173e-4627-9861-2ffa345b2e56"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/condition_occurrence"
+  rid: "ri.foundry.main.dataset.94cb4893-0109-497a-bb47-ed1becf4497d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/control_map"
+  rid: "ri.foundry.main.dataset.c0293837-4188-4f0f-9d85-4e5df83f3635"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/death"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/death"
+  rid: "ri.foundry.main.dataset.6207cc6c-f05e-4f77-bbd8-f20e9b9e29b8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/dose_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/dose_era"
+  rid: "ri.foundry.main.dataset.9ba2ccd1-30f9-4e90-8b25-467402584442"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/drug_era"
+  rid: "ri.foundry.main.dataset.418436a7-6080-45b1-b683-ab698a41dd35"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/drug_exposure"
+  rid: "ri.foundry.main.dataset.5c690080-813d-489b-ad9e-55d149661cf9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/location"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/location"
+  rid: "ri.foundry.main.dataset.d5923a52-a5ca-4b68-b3fe-b066c747776b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/measurement"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/measurement"
+  rid: "ri.foundry.main.dataset.96449d74-f547-4167-8140-5642b42784c5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/observation"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/observation"
+  rid: "ri.foundry.main.dataset.855b57a2-3e46-4982-a75f-2c7fe7a3855c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/observation_period"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/observation_period"
+  rid: "ri.foundry.main.dataset.62bebdff-d454-4ce3-b1de-1852a552a01f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/person"
+  rid: "ri.foundry.main.dataset.a725cea2-98c4-4040-b859-0c64aabc8cc0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.285270aa-e0d0-4038-8260-12a327938ba7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/provider"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/provider"
+  rid: "ri.foundry.main.dataset.e2c5815b-011c-437a-b0c1-402be4ee8702"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: PEDSnet/Site 1015/union_staging/staged/visit_occurrence"
+  rid: "ri.foundry.main.dataset.2b28d999-ad6e-4435-bec1-f2e7a1c6a455"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/Zipped Datasets/site_1015_pedsnet_raw_zips"
+  modes:
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/Zipped Datasets/site_1015_pedsnet_raw_zips"
+  rid: "ri.foundry.main.dataset.33f9fc28-0d69-48a6-853d-c1ccf5635b34"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/data partner id tables/Data\
+    \ Partner IDs - ALL"
+  modes:
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/data partner id tables/Data\
+    \ Partner IDs - ALL"
+  rid: "ri.foundry.main.dataset.4d4cf17b-9dfb-48e8-bb19-4f62960b75ec"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/data partner id tables/Data\
+    \ Partner IDs - Site 1015"
+  modes:
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/data partner id tables/Data\
+    \ Partner IDs - Site 1015"
+  rid: "ri.foundry.main.dataset.c470080d-08fd-4761-a713-1948696db2b1"
+- alias: "/UNITE/LDS/AHRQ Safety Measure/ahrq_code_xwalk"
+  modes:
+  - "READ"
+  path: "/UNITE/LDS/AHRQ Safety Measure/ahrq_code_xwalk"
+  rid: "ri.foundry.main.dataset.6514962a-d290-4838-b5fa-38ce6656480e"
+- alias: "/UNITE/LDS/LOINC Codes to Remove/loinc_codes_to_remove"
+  modes:
+  - "READ"
+  path: "/UNITE/LDS/LOINC Codes to Remove/loinc_codes_to_remove"
+  rid: "ri.foundry.main.dataset.50a9b7b2-0c47-42f5-8e1b-2fc2afd998a2"

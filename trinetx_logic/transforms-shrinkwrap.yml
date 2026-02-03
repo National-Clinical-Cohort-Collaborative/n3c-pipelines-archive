@@ -1,0 +1,1734 @@
+---
+mappings:
+- alias: "/N3C Export Area/OMOP Vocabularies/concept"
+  modes:
+  - "READ"
+  path: "/N3C Export Area/OMOP Vocabularies/concept"
+  rid: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+- alias: "/UNITE/AOU Tribal Zip Codes/Tribal Zip Codes"
+  modes:
+  - "READ"
+  path: "/UNITE/AOU Tribal Zip Codes/Tribal Zip Codes"
+  rid: "ri.foundry.main.dataset.29c4419f-56ed-48af-8038-7178f27c3acc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/control_map"
+  rid: "ri.foundry.main.dataset.c8ea14b5-dba5-425b-b65c-bc279d930cc1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/data_counts_check"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/data_counts_check"
+  rid: "ri.foundry.main.dataset.683412bf-b9af-4406-b54c-716867fbebbc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/data_counts_filtered"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/data_counts_filtered"
+  rid: "ri.foundry.main.dataset.82c0705d-7633-487a-9616-632abb3f8533"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/duplicate_encounter_ids"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/duplicate_encounter_ids"
+  rid: "ri.foundry.main.dataset.a3b07f37-d4af-46e6-b9f0-5284bc868e66"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/manifest"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/manifest"
+  rid: "ri.foundry.main.dataset.1fe27190-8584-4507-af69-0256ea07e40c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/payload_status"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/metadata/payload_status"
+  rid: "ri.foundry.main.dataset.6989d1e9-2d56-41bf-9f20-c68c079d1b4f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/00 - unzipped/payload_filename"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/00 - unzipped/payload_filename"
+  rid: "ri.foundry.main.dataset.4f306f27-2e05-4810-81cc-0e27d75b442a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/00 - unzipped/unzipped_raw_data"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/00 - unzipped/unzipped_raw_data"
+  rid: "ri.foundry.main.dataset.8b23070c-2415-40b5-a4d2-e8725bbdced1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/cached/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/cached/note"
+  rid: "ri.foundry.main.dataset.7c323eaf-c55e-4ec2-b6db-ae95e223983c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/cached/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/cached/note_nlp"
+  rid: "ri.foundry.main.dataset.60a6a4a2-8086-475d-9111-a9f5a108924e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/adt"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/adt"
+  rid: "ri.foundry.main.dataset.5552f024-db23-447c-bd3c-c6b07875ef72"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/control_map"
+  rid: "ri.foundry.main.dataset.699a7ad5-f342-4409-9b06-ff5db8728254"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/data_counts"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/data_counts"
+  rid: "ri.foundry.main.dataset.12bac27c-0319-4fe7-9308-0ac66e92bbdf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/diagnosis"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/diagnosis"
+  rid: "ri.foundry.main.dataset.a595b7b2-da63-4b22-8ff0-83843d2a0024"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/encounter"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/encounter"
+  rid: "ri.foundry.main.dataset.ade9e604-632c-4a46-8b5a-63e656cc51ca"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/lab_result"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/lab_result"
+  rid: "ri.foundry.main.dataset.70e61bf9-b856-4004-8fac-88ab730137ca"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/manifest"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/manifest"
+  rid: "ri.foundry.main.dataset.c4217591-7336-4d8f-bf50-fa71bc0fec53"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/medication"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/medication"
+  rid: "ri.foundry.main.dataset.7b2c3ad5-e217-41d1-a35a-1f3c07a0edde"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/note"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/note"
+  rid: "ri.foundry.main.dataset.2e962520-a107-4452-b4ef-51f6ee37848c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/note_nlp"
+  rid: "ri.foundry.main.dataset.28c0e06f-3ad4-47e3-a9cf-c6f5b0e837c0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/patient"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/patient"
+  rid: "ri.foundry.main.dataset.794d79c2-a528-4ce8-8fd2-7d5d17584fd8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/procedure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/procedure"
+  rid: "ri.foundry.main.dataset.0e64be41-9706-4416-93b5-e3ae423fc289"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/vital_signs"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/errors/vital_signs"
+  rid: "ri.foundry.main.dataset.62c93080-40f6-4622-83c6-3a8c02373e58"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/metadata/data_counts"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/metadata/data_counts"
+  rid: "ri.foundry.main.dataset.1d04b8d2-dc9b-44a0-9c7f-7624cc7c7115"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/metadata/manifest"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/metadata/manifest"
+  rid: "ri.foundry.main.dataset.e3421f9f-3ebf-43b1-bead-cf3fe587d4e3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/optional/adt"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/optional/adt"
+  rid: "ri.foundry.main.dataset.04ab8ff9-d26c-4b4c-b025-53ed36f4679c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/optional/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/optional/control_map"
+  rid: "ri.foundry.main.dataset.9a1740a2-cfef-41cf-9a8a-4b44b7abe1a6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/optional/vital_signs"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/optional/vital_signs"
+  rid: "ri.foundry.main.dataset.41cbbc52-ea9b-46a7-b5c9-d1e08679a3c6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/diagnosis"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/diagnosis"
+  rid: "ri.foundry.main.dataset.835a8390-83ed-4a88-ab7c-e5cdd2f2a2b6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/encounter"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/encounter"
+  rid: "ri.foundry.main.dataset.2528b532-5956-4e56-8493-b05f3690f0f7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/lab_result"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/lab_result"
+  rid: "ri.foundry.main.dataset.0749c68b-f19b-492c-b9e3-9427826d4812"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/medication"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/medication"
+  rid: "ri.foundry.main.dataset.e9dbafc4-1743-439f-bec0-4b66ab740d2d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/patient"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/patient"
+  rid: "ri.foundry.main.dataset.f699cdb7-68f5-4691-878a-83e62f50415e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/procedure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/01 - parsed/required/procedure"
+  rid: "ri.foundry.main.dataset.3c54bd4c-9e88-4b4b-b760-f8c936a9e9de"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/adt"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/adt"
+  rid: "ri.foundry.main.dataset.ac0d8016-d008-4ff7-bec3-fe412ef7a3c2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/control_map"
+  rid: "ri.foundry.main.dataset.78adc935-a452-4662-b5e4-7e0e6e4b1c9a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/diagnosis"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/diagnosis"
+  rid: "ri.foundry.main.dataset.7ef472d1-1b27-4411-8206-c451a178bb0a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/encounter"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/encounter"
+  rid: "ri.foundry.main.dataset.a1a2e341-e0ce-4ca6-a329-4ad2f52c2818"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/lab_result"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/lab_result"
+  rid: "ri.foundry.main.dataset.5846a2f2-7650-4a77-9d60-84d98fa39305"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/medication"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/medication"
+  rid: "ri.foundry.main.dataset.c64444ed-6f5d-4c3a-b900-55d255eb89f4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/note"
+  rid: "ri.foundry.main.dataset.12c30ef5-bb80-447a-85a2-266510f52838"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/note_nlp"
+  rid: "ri.foundry.main.dataset.804ff27a-e443-4e9e-8476-a47ba933cd98"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/patient"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/patient"
+  rid: "ri.foundry.main.dataset.b014e6fe-e4a5-4acf-b857-20a9c63d00b2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/procedure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/procedure"
+  rid: "ri.foundry.main.dataset.90b0c68e-47de-48e1-ac2b-52f1756b2c87"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/vital_signs"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/02 - clean/vital_signs"
+  rid: "ri.foundry.main.dataset.07482246-84a8-4e30-8ef2-2c631888c522"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/adt"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/adt"
+  rid: "ri.foundry.main.dataset.194644a6-afec-4255-aac4-40e56b6bdff4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/control_map"
+  rid: "ri.foundry.main.dataset.ba8c149a-e13e-4519-8e45-ad811855357f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/diagnosis"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/diagnosis"
+  rid: "ri.foundry.main.dataset.384dae6d-5e21-4c93-b1d6-c3d66f817d5b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/encounter"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/encounter"
+  rid: "ri.foundry.main.dataset.2a218dfd-06f5-4367-a9cf-d1091cd3b6d8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/lab_result"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/lab_result"
+  rid: "ri.foundry.main.dataset.d2ec93db-89bb-49a7-83a8-3fd99ffcd9be"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/medication"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/medication"
+  rid: "ri.foundry.main.dataset.d5dc4e1e-bf33-440d-aff6-dad38d32c6fb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/note"
+  rid: "ri.foundry.main.dataset.cc2ad0f7-222f-4a15-8558-35392b32a121"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/note_nlp"
+  rid: "ri.foundry.main.dataset.94c32265-429d-4242-8fb5-8cb0ad982009"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/patient"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/patient"
+  rid: "ri.foundry.main.dataset.ad81a95a-0974-462b-8413-c73194e81a00"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/procedure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/procedure"
+  rid: "ri.foundry.main.dataset.16dd5b66-7fa8-4769-b97b-f008c3adcc68"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/vital_signs"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/03 - prepared/vital_signs"
+  rid: "ri.foundry.main.dataset.4d756c44-7833-4169-8883-fd8ef7fea7d0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/observation_dupes"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/observation_dupes"
+  rid: "ri.foundry.main.dataset.a40d4f9b-2b39-465f-85e4-18aaff0a1b06"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/observation_raw"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/observation_raw"
+  rid: "ri.foundry.main.dataset.6e761c17-af0a-4dbe-b47b-b0229ba196d5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/visit_detail_dups"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/visit_detail_dups"
+  rid: "ri.foundry.main.dataset.37b90abe-1aaf-487a-8ddf-bd6bdc0c59ad"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/visit_detail_raw"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/04.5 - deduping/visit_detail_raw"
+  rid: "ri.foundry.main.dataset.579dd8a8-411c-4dc1-b62e-74971766cfd1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/condition_era"
+  rid: "ri.foundry.main.dataset.520fdd8e-c3db-4ca4-a072-72d6c19ca4fd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/condition_occurrence"
+  rid: "ri.foundry.main.dataset.8d371990-0535-43e1-bce5-a4f1fa4ff389"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/control_map"
+  rid: "ri.foundry.main.dataset.e46f9bd6-e73a-4ab9-ab08-a5ddeaee828b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/death"
+  rid: "ri.foundry.main.dataset.07db683b-133d-4819-a996-2f25b4b0ea4a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/device_exposure"
+  rid: "ri.foundry.main.dataset.48962176-9640-44f6-98ad-8e6ddc671558"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/dqp_procedure_in_visit"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/dqp_procedure_in_visit"
+  rid: "ri.foundry.main.dataset.31b46c51-e0ba-4f8e-9cd1-efdeeb9b8b2e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/drug_era"
+  rid: "ri.foundry.main.dataset.ff01203a-da16-4f60-8299-86823afa6e53"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/drug_exposure"
+  rid: "ri.foundry.main.dataset.5edc7863-db16-4377-9b6a-f1c3421d3705"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/location"
+  rid: "ri.foundry.main.dataset.abb7ce14-5eb1-4ac2-948a-c844a590fa7e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/measurement"
+  rid: "ri.foundry.main.dataset.01935ab1-743c-416a-9243-aebde501829f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/note"
+  rid: "ri.foundry.main.dataset.ef83588a-8477-4888-b8af-8e0d45ac084f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/note_nlp"
+  rid: "ri.foundry.main.dataset.159b8d00-ebab-4a8c-a143-315b8ca143db"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/observation"
+  rid: "ri.foundry.main.dataset.75ad87d7-f98b-40e7-94d9-7675e4c59599"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/observation_period"
+  rid: "ri.foundry.main.dataset.15cda2e2-1a42-44f5-8937-4fc27d606be8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/person"
+  rid: "ri.foundry.main.dataset.40a8160c-7fd2-4ecf-b7dc-188ca089daf8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.07fab4a9-e182-4a87-be77-1ab518f09361"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/visit_detail"
+  rid: "ri.foundry.main.dataset.4f3cb79e-7e91-4113-8154-7991f626f5b4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/04 - domain mapping/visit_occurrence"
+  rid: "ri.foundry.main.dataset.6e28e019-e619-4f43-88a7-4933154da61b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/condition_era"
+  rid: "ri.foundry.main.dataset.a195a555-e74d-49f1-bbf5-bc79a6e51884"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/condition_occurrence"
+  rid: "ri.foundry.main.dataset.74d20168-b087-41a2-aadc-6e499333098e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/control_map"
+  rid: "ri.foundry.main.dataset.ae9763a9-6fff-47d4-a15d-1cec9505cec1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/device_exposure"
+  rid: "ri.foundry.main.dataset.1f83e725-a733-43ae-9d96-1fbcb61af04e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/drug_era"
+  rid: "ri.foundry.main.dataset.2348e51f-6e81-4bab-94cf-02c80eede13e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/drug_exposure"
+  rid: "ri.foundry.main.dataset.e648f20c-58fa-4e7e-889f-ee5ffebda5ee"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/location"
+  rid: "ri.foundry.main.dataset.b87059a2-0c8f-4dea-8741-10c5b0648d71"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/measurement"
+  rid: "ri.foundry.main.dataset.1bd3e449-54f2-4501-84c0-06785b1048ff"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/note"
+  rid: "ri.foundry.main.dataset.7573e2e4-4f2b-4457-b649-28b88b09acf0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/note_nlp"
+  rid: "ri.foundry.main.dataset.5a228bde-ab56-4759-a507-00a1638f4c93"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/observation"
+  rid: "ri.foundry.main.dataset.0326a856-2b06-4620-9038-8b744310e1d9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/observation_period"
+  rid: "ri.foundry.main.dataset.d170c431-1b6f-4054-ad23-6ea7444cab8e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/person"
+  rid: "ri.foundry.main.dataset.3232f705-6f04-4b1e-8775-7f89abc2e0a7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.26b70bf2-8e1a-4e60-8759-bae5172e79ea"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/visit_detail"
+  rid: "ri.foundry.main.dataset.7bf99d7a-59c8-4ca2-88e3-27c18748228c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/05 - pkey collision lookup tables/visit_occurrence"
+  rid: "ri.foundry.main.dataset.ef956ba7-5625-469e-a3f3-3a85af75e218"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/condition_era"
+  rid: "ri.foundry.main.dataset.e7b29132-377e-49e5-85f5-89a1615c9a45"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/condition_occurrence"
+  rid: "ri.foundry.main.dataset.4dbd9a42-f21d-4fdd-ae8d-4904cae7ad33"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/control_map"
+  rid: "ri.foundry.main.dataset.88a55dcf-c728-4d1d-a82a-2cf20a258a91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/death"
+  rid: "ri.foundry.main.dataset.e0ce17a3-25cd-47af-8fd7-cc4c37838f52"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/device_exposure"
+  rid: "ri.foundry.main.dataset.81a4bec1-7a51-4ab3-9eba-fa28467fd064"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/drug_era"
+  rid: "ri.foundry.main.dataset.30107986-c3e7-456a-a03c-d3d3b60a44e0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/drug_exposure"
+  rid: "ri.foundry.main.dataset.ab60b602-2a9f-4e99-8f2d-fb5a0a16a8de"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/location"
+  rid: "ri.foundry.main.dataset.3445e3be-d510-4e4e-9ec0-29a1ed867208"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/measurement"
+  rid: "ri.foundry.main.dataset.e0101619-813c-4f0a-8584-5feb4ffea1d1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/note"
+  rid: "ri.foundry.main.dataset.ed1d8e56-2a7b-4b49-ba51-5b9d27b69c2a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/note_nlp"
+  rid: "ri.foundry.main.dataset.97df4363-9a07-4daf-9844-534862807c4d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/observation"
+  rid: "ri.foundry.main.dataset.5d957ee7-9175-45bc-89e7-a3614c78c089"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/observation_period"
+  rid: "ri.foundry.main.dataset.a84fb658-b697-4d08-92c5-e2a464597c91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/person"
+  rid: "ri.foundry.main.dataset.995eb0cf-ff8c-48a1-8713-b2f284e9f161"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.f66a3acd-56e9-4dfe-83c6-656643ca8443"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/visit_detail"
+  rid: "ri.foundry.main.dataset.74a9d0f6-dfc9-4641-be87-da51f403a876"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/06 - id generation/visit_occurrence"
+  rid: "ri.foundry.main.dataset.ee21d958-712b-41f1-a3a9-cf6b61118926"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/condition_era"
+  rid: "ri.foundry.main.dataset.42ba2227-0d3a-4a95-b633-41e876f7820c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/condition_occurrence"
+  rid: "ri.foundry.main.dataset.3e6d737f-8315-437e-8ac8-8f0f0feb478c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/control_map"
+  rid: "ri.foundry.main.dataset.baf8cd19-7811-48ec-957f-24aea87e406d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/death"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/death"
+  rid: "ri.foundry.main.dataset.12c1ef53-df55-4d1d-8563-daca6f070d3f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/device_exposure"
+  rid: "ri.foundry.main.dataset.9a577acb-d5b3-4ec4-8331-0543fdcce823"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/drug_era"
+  rid: "ri.foundry.main.dataset.57e94420-6677-43ea-be42-61b3a2ccdec1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/drug_exposure"
+  rid: "ri.foundry.main.dataset.ed57f5bf-fbcb-4338-a967-ad369e49afe3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/location"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/location"
+  rid: "ri.foundry.main.dataset.77257a20-2dcc-4c88-b28a-f21fc8210a30"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/measurement"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/measurement"
+  rid: "ri.foundry.main.dataset.8ad2d493-6e6d-4d02-b354-6dfda4945ac7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/note"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/note"
+  rid: "ri.foundry.main.dataset.858e3d24-0e41-40fc-92a1-63bea9be7d11"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/note_nlp"
+  rid: "ri.foundry.main.dataset.5149dbb6-0fdd-4c9f-b83c-360119b7e205"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/observation"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/observation"
+  rid: "ri.foundry.main.dataset.3060b7ec-4988-477f-88b4-c79a67721204"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/observation_period"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/observation_period"
+  rid: "ri.foundry.main.dataset.5f79036b-4b45-477c-b83a-64207eccb53a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/person"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/person"
+  rid: "ri.foundry.main.dataset.103add66-4d67-48c9-816b-7d6d349a6f7c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.00502d00-631c-495c-8071-80a0b6db605f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/visit_detail"
+  rid: "ri.foundry.main.dataset.6dd44764-ddb3-46c5-b9ac-98405c74905b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/nulled/visit_occurrence"
+  rid: "ri.foundry.main.dataset.dcd9ee30-ef1e-4b3c-bfd7-b61c4700739e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/pre_clean_removed_person_ids"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/pre_clean_removed_person_ids"
+  rid: "ri.foundry.main.dataset.f27124c3-1eb7-4271-a088-4f90c6882a1e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/condition_era"
+  rid: "ri.foundry.main.dataset.8229c6cc-6370-4374-8177-d00eb2ed517d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/condition_occurrence"
+  rid: "ri.foundry.main.dataset.aff53ce7-cd7e-4cf6-8ee1-ded5528176b7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/control_map"
+  rid: "ri.foundry.main.dataset.684b7539-eac2-4ab8-a2c5-46eaca5ac4d8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/death"
+  rid: "ri.foundry.main.dataset.b1ce5ac8-8fc1-4cc8-a976-11723dac773b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/device_exposure"
+  rid: "ri.foundry.main.dataset.747c9509-5e6e-4d44-b825-8b8ee40a8133"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/drug_era"
+  rid: "ri.foundry.main.dataset.d41619d8-ca52-4d0e-a94a-44a2328d14c3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/drug_exposure"
+  rid: "ri.foundry.main.dataset.e8ee217f-252c-4548-86d3-e9018da02d46"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/location"
+  rid: "ri.foundry.main.dataset.68ba28b4-75e0-41b4-ba28-01c9dad57f62"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/measurement"
+  rid: "ri.foundry.main.dataset.004f9b0c-23de-499a-8927-31a7b5d4c624"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/note"
+  rid: "ri.foundry.main.dataset.3f523356-53ff-497b-a8f6-009cd01726fa"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/note_nlp"
+  rid: "ri.foundry.main.dataset.96d05c6b-6fb2-4b2a-8e37-17742aee8149"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/observation"
+  rid: "ri.foundry.main.dataset.8fd0ccc3-bb54-4acb-b262-b0d77c78bb93"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/observation_period"
+  rid: "ri.foundry.main.dataset.e14de13d-2930-4dbd-9467-6e9575d838df"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/person"
+  rid: "ri.foundry.main.dataset.f2c0391e-844b-4336-92dd-8259725dca51"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.9be12623-868e-472e-8aed-8f82c5eb6dc0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/visit_detail"
+  rid: "ri.foundry.main.dataset.faa2de6c-1996-435b-ae61-3797bb3c32ce"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/processed/visit_occurrence"
+  rid: "ri.foundry.main.dataset.c07fcf69-c69d-4120-bfde-f6f2e982dce2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/condition_era"
+  rid: "ri.foundry.main.dataset.0a921ef8-9192-488a-8f9b-3fdc011a2e58"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/condition_occurrence"
+  rid: "ri.foundry.main.dataset.c9e6e85b-68c1-4b9d-8d68-aab6facafb45"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/control_map"
+  rid: "ri.foundry.main.dataset.1140c5a6-e79a-45be-b6ba-3de1504a248c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/death"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/death"
+  rid: "ri.foundry.main.dataset.496c29bd-6325-476c-a5cb-d148723f110e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/device_exposure"
+  rid: "ri.foundry.main.dataset.9558acbc-0720-46cc-8752-1d97263ed66b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/drug_era"
+  rid: "ri.foundry.main.dataset.04ba03ca-a73d-4083-9069-e1a8f8b74d16"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/drug_exposure"
+  rid: "ri.foundry.main.dataset.35c0b23c-9a09-403b-b7c7-81bcfdac3659"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/location"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/location"
+  rid: "ri.foundry.main.dataset.69e158d2-579d-496a-865c-7348dd2da7a4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/measurement"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/measurement"
+  rid: "ri.foundry.main.dataset.41b3fb21-a13c-4b9a-b718-94bddd6ad7d9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/note"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/note"
+  rid: "ri.foundry.main.dataset.1c5dca7b-e4a2-4087-9a90-7ad245b462c6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/note_nlp"
+  rid: "ri.foundry.main.dataset.0131f8ba-3a08-47d3-8c2e-b6774d7aa1eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/observation"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/observation"
+  rid: "ri.foundry.main.dataset.05d51c0e-459c-4c47-832d-0e31b6cfe052"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/observation_period"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/observation_period"
+  rid: "ri.foundry.main.dataset.9a5398f2-c994-42b0-98c1-3abfb98f4d67"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/person"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/person"
+  rid: "ri.foundry.main.dataset.3367985b-d134-4051-8da2-9a121f0ef0ba"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.3f9a156a-93f2-4e42-b02f-a218ada29954"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/visit_detail"
+  rid: "ri.foundry.main.dataset.0e9d84cf-e021-400f-9d52-225e9072496b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/07 - pre clean/removed/visit_occurrence"
+  rid: "ri.foundry.main.dataset.3d8055fd-048f-4b02-9a3c-635a06f92f3b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/condition_era"
+  rid: "ri.foundry.main.dataset.ce21c5ea-4b3f-4cf8-b514-0e12a3cb176d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/condition_occurrence"
+  rid: "ri.foundry.main.dataset.25584a29-4e8d-467e-af2f-558e7e4bc885"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/control_map"
+  rid: "ri.foundry.main.dataset.c2011ba5-0c9a-4128-861c-0192acfcb94d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/death"
+  rid: "ri.foundry.main.dataset.da3c94d6-36c9-4f22-8868-89658f65244e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/device_exposure"
+  rid: "ri.foundry.main.dataset.52bdaf95-3133-46fe-bd5c-b5e9a805c2dc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/drug_era"
+  rid: "ri.foundry.main.dataset.6d87fbf6-6c73-41fb-a339-10f4bd066fa1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/drug_exposure"
+  rid: "ri.foundry.main.dataset.045d6f08-a4c3-4892-8342-ad3a1518bd2a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/location"
+  rid: "ri.foundry.main.dataset.0936af75-f9db-457e-b3e7-dafe31028a23"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/measurement"
+  rid: "ri.foundry.main.dataset.f614fdb3-0a7a-4c0d-a03d-5b63e2bdb987"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/note"
+  rid: "ri.foundry.main.dataset.0cbdd7d8-48ed-47f5-9179-a9e6ef503b8e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/note_nlp"
+  rid: "ri.foundry.main.dataset.bda5dbab-9780-4714-b9c2-49ec71e3257b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/observation"
+  rid: "ri.foundry.main.dataset.960dc038-8f42-4251-a172-59a6f93eaeca"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/observation_period"
+  rid: "ri.foundry.main.dataset.68753b9e-6ee6-4e39-b943-f08320e90b47"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/person"
+  rid: "ri.foundry.main.dataset.9ee8fd1e-e798-4900-83a8-4da1dc66f3ab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.d02e0006-ccdd-4539-9298-4ada91c1bf23"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/visit_detail"
+  rid: "ri.foundry.main.dataset.9cb16dfb-21d5-46c1-ad40-16bf355535a5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/08 - clean/visit_occurrence"
+  rid: "ri.foundry.main.dataset.b870bc20-b227-4143-bd35-52b06fdc7457"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/condition_era"
+  rid: "ri.foundry.main.dataset.c26aea4c-c923-477e-b9f0-826138808e9a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/condition_occurrence"
+  rid: "ri.foundry.main.dataset.f74c38bb-9173-4f57-9ec9-9f9edd1ee8cf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/control_map"
+  rid: "ri.foundry.main.dataset.07228e2e-46e0-4273-97ea-953d57a10ac6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/death"
+  rid: "ri.foundry.main.dataset.556700b2-b3fd-4849-b707-122c3dadc61c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/device_exposure"
+  rid: "ri.foundry.main.dataset.b5e9c650-2c12-41f1-919a-22c28fcf6d41"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/drug_era"
+  rid: "ri.foundry.main.dataset.2fd77d70-dccd-4d0a-855e-213f7277ad60"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/drug_exposure"
+  rid: "ri.foundry.main.dataset.5b6397a8-65db-4cef-9fca-495e257a25e6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/location"
+  rid: "ri.foundry.main.dataset.5bae2ebe-6959-43e3-b1cc-f3890411c544"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/measurement"
+  rid: "ri.foundry.main.dataset.b3969ddb-458c-4b97-8b8c-6db39e48cdef"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/note"
+  rid: "ri.foundry.main.dataset.147d0269-6e06-424e-bcae-54dc0ce00472"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/note_nlp"
+  rid: "ri.foundry.main.dataset.582392ab-d1e5-4e2d-99f1-e2d32fe52fef"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/observation"
+  rid: "ri.foundry.main.dataset.764ad5a9-0878-41ca-aeda-83573d7cfca8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/observation_period"
+  rid: "ri.foundry.main.dataset.894451af-8c0a-4b0e-a756-b7cdfed93638"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/person"
+  rid: "ri.foundry.main.dataset.31bee76d-33b1-43fd-9436-6187158ca349"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.58246ef7-777d-4986-8ffc-bf3834d96d82"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/visit_detail"
+  rid: "ri.foundry.main.dataset.e3538cc2-3d2f-4afc-bdbc-bf742edfdd90"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/09 - final health check/visit_occurrence"
+  rid: "ri.foundry.main.dataset.844aa388-a029-4230-a74c-34edbe9380bd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/sdoh_answer_code_xwalk"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/sdoh_answer_code_xwalk"
+  rid: "ri.foundry.main.dataset.d4ba3bf4-819c-4d91-ab8c-0a0fbb351ab5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/t2o_code_xwalk_standard"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/t2o_code_xwalk_standard"
+  rid: "ri.foundry.main.dataset.0fe36203-fe21-4ad1-904e-3fe3e02bce69"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/vent_code_xwalk"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/transform/vent_code_xwalk"
+  rid: "ri.foundry.main.dataset.05301648-6f9e-43bd-8709-bd87fab50380"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/condition_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/condition_era"
+  rid: "ri.foundry.main.dataset.5a5bae69-0fa6-4e0e-85d7-51009c4b8780"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/condition_occurrence"
+  rid: "ri.foundry.main.dataset.013c8659-6624-4329-9169-84b15d703853"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/control_map"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/control_map"
+  rid: "ri.foundry.main.dataset.926044dc-0860-44b1-a8b9-c63163e0a080"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/death"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/death"
+  rid: "ri.foundry.main.dataset.220d7ff0-295a-4625-a552-4f6547a7f74e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/device_exposure"
+  rid: "ri.foundry.main.dataset.e7fd071b-6158-4a6b-bb92-14f7c626022e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/drug_era"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/drug_era"
+  rid: "ri.foundry.main.dataset.23bd4094-30f8-4a3b-8f21-e0c2cf85256a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/drug_exposure"
+  rid: "ri.foundry.main.dataset.ea524cca-d9c1-47b8-813c-607579d077ba"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/location"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/location"
+  rid: "ri.foundry.main.dataset.fb1504d5-6e21-44ba-89f1-454d6713f1b4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/measurement"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/measurement"
+  rid: "ri.foundry.main.dataset.c96d2c04-4e11-431d-ab1c-1fa8c86f3fb3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/note"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/note"
+  rid: "ri.foundry.main.dataset.9e3bbe79-7efe-4575-9c78-36c127a3fa91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/note_nlp"
+  rid: "ri.foundry.main.dataset.360e5a1b-43e0-47a6-80d2-aab5e4d29ea4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/observation"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/observation"
+  rid: "ri.foundry.main.dataset.7f65c20c-595e-484a-876f-042b104fe54c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/observation_period"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/observation_period"
+  rid: "ri.foundry.main.dataset.8cdac56b-8b48-4bf3-b121-36d80f48cc21"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/person"
+  rid: "ri.foundry.main.dataset.4e3cdfc7-f22e-4233-93ff-a24f7539ea23"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/procedure_occurrence"
+  rid: "ri.foundry.main.dataset.af04a2de-159d-4134-93ed-c5a72e428e93"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/visit_detail"
+  rid: "ri.foundry.main.dataset.abe153ef-6138-47aa-8ee6-35a888348c7b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/raw_trinetx/Site\
+    \ 102/union_staging/staged/visit_occurrence"
+  rid: "ri.foundry.main.dataset.abc50399-0581-4b29-81df-9d544f221949"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/t2o_valueset_mapping_table"
+  modes:
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/Source Data Model: TriNetX/t2o_valueset_mapping_table"
+  rid: "ri.foundry.main.dataset.91baf188-dbe6-4e81-bb87-17793083dfa1"
+- alias: "/UNITE/LDS/AHRQ Safety Measure/ahrq_code_xwalk"
+  modes:
+  - "READ"
+  path: "/UNITE/LDS/AHRQ Safety Measure/ahrq_code_xwalk"
+  rid: "ri.foundry.main.dataset.6514962a-d290-4838-b5fa-38ce6656480e"
+- alias: "/UNITE/LDS/LOINC Codes to Remove/loinc_codes_to_remove"
+  modes:
+  - "READ"
+  path: "/UNITE/LDS/LOINC Codes to Remove/loinc_codes_to_remove"
+  rid: "ri.foundry.main.dataset.50a9b7b2-0c47-42f5-8e1b-2fc2afd998a2"
+- alias: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+- alias: "ri.foundry.main.dataset.0e1acd60-6eeb-49e1-9189-1b8a6221ac29"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0e1acd60-6eeb-49e1-9189-1b8a6221ac29"
+- alias: "ri.foundry.main.dataset.1ee62bec-b59b-408c-8f19-9cf6b61685b8"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1ee62bec-b59b-408c-8f19-9cf6b61685b8"
+- alias: "ri.foundry.main.dataset.4d4cf17b-9dfb-48e8-bb19-4f62960b75ec"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4d4cf17b-9dfb-48e8-bb19-4f62960b75ec"
+- alias: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+- alias: "ri.foundry.main.dataset.70662d1f-551a-4d8d-aca9-99914a85ceba"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.70662d1f-551a-4d8d-aca9-99914a85ceba"
+- alias: "ri.foundry.main.dataset.8309748b-82bb-423c-83dd-4ba2807e6b99"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8309748b-82bb-423c-83dd-4ba2807e6b99"
+- alias: "ri.foundry.main.dataset.c5e0521a-147e-4608-b71e-8f53bcdbe03c"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c5e0521a-147e-4608-b71e-8f53bcdbe03c"

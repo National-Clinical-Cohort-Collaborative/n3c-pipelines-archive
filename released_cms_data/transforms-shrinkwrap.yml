@@ -1,0 +1,448 @@
+---
+mappings:
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/care_site"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.021a307e-08c7-449e-9697-5a86c71f91c9"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/condition_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2ec57a90-2715-4272-b00c-0f4a71bd2106"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/condition_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.58ac5731-091a-44be-85d7-9f1525dd0a12"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/death"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4b4d625a-e188-4cb6-91ad-250d030adfd2"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/device_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e4344b0f-d683-4942-91b8-9c0819f80ec4"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/drug_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b70fee8e-6f24-4c16-8b8b-c89495afd58e"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/drug_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3e3bc0fb-dc55-4a14-acfa-6c4a154a9c90"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/health_system"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.902b7cef-3756-47d7-a197-cc4b36688b4e"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/measurement"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.aee6ae6c-ae3c-4068-b09c-ceda61fbe869"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/observation"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.556bd1d3-c853-4548-bb89-f52dbfeee14c"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/observation_period"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c7f62815-5268-4df6-8a23-af494e019941"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c329fc6d-a068-419e-92b1-fa1e3fd724f9"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/procedure_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.775638b5-f45c-4f9a-88fc-ec8ebff5aacd"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/provider"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.58591058-24b1-4ac9-a910-dcd9e32273c7"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/staged_cms_mapping_table"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f9bc5dd5-d80d-483c-9c74-bc87dd7ac6ec"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/medicaid/pipeline/staging/visit_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c38ae2ca-3d05-4dea-9a99-16f755e7224e"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/care_site"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.855b0a12-bfe0-485f-a8bc-3a0479e32e00"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/condition_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e696f27d-d0b4-4a67-9679-9a9c21fb463a"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/condition_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6157f190-0bed-46e0-a071-98b5b9589cba"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/death"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.76493842-ff68-4888-ba5b-cefd87fcba69"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/device_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.63b5e7da-2ed5-4a13-a193-f0837e743df1"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/drug_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ff5a9cfd-0d20-416c-8a0c-490ce10c7386"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/drug_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ce5a424a-4c60-42fc-b3e9-acac95694225"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/health_system"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.14f47457-86be-44c9-9660-b53ea72ae6fd"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/measurement"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8471fcea-9be6-4c51-a40b-12c1528cc2f1"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/observation"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9ba4e816-4922-4869-b23f-61bd001520ed"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/observation_period"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.47b9370f-52b2-4793-aa3e-25d73cfdf484"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9efd3330-96f4-4cf7-a28c-ce75a2ef5c24"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/procedure_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cf00ec16-afdb-484c-b04a-88b2b779df3a"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/provider"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.90d24578-c2ba-4828-8278-4f5b5dec463b"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/staged_cms_mapping_table"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ec33a63e-773c-4356-b7be-e2b31750a365"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/pipeline/staging/visit_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3e66be7e-9a1a-4618-8719-2dc0f3d469fb"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/durable_medical_equipment"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1a73932a-8b16-42c1-8352-4bdb292c0a90"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/home_health"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0a0dcf1e-0605-4c0f-9115-b972d08a9319"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/hospice"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2da33808-31f8-4802-a5ae-cf26a3130edd"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/inpatient"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6078f32b-3ab5-45c3-99ef-46a46f6b3445"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/member_benefit"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0171053b-5475-446c-ab9d-caace2fcf42b"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/part_d"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.76815e2d-ddd0-47a1-b765-da03852471c0"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/professional_billed"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.63fa0188-7410-4f60-88fc-c5ef3e33644f"
+- alias: "/UNITE/[PPRL] CMS Data & Repository/raw/staging/skilled_nursing"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e327bdb8-9be8-4eb2-9fc2-d240182ed7e3"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c9fff504-8175-4077-a628-6b67aac0b7d9"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/cms_person_id_to_n3c_person_id"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ae72ccc0-b081-41a8-acf6-24eea9a71b21"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.09df59d7-a06e-4dab-9b0e-1870fbe61e28"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.805f05f4-5790-4dd5-8d96-85cdd30daeae"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.bf999137-13e1-45ee-be41-68766d04366c"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.25dfb8fa-de15-410c-8214-e8d3ab709592"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.04f392c6-a2ab-4fc4-ae73-12cad9c68799"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a1cffc0e-def3-4217-b7fd-a24efcb6102a"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/health_system"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.919e0865-accc-4d87-83f3-6d561cea0d43"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5ced7257-0115-4038-9bcc-bbbf81fbe345"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d5054e9-9444-4d48-afd5-3e7dfe0077fa"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.188c102b-c2be-444d-bf45-87fc35bcee22"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a16dd63b-061f-491a-a21d-206e3989f217"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8ff9d9a6-3771-4eee-9aa8-85a75412d190"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7e0b2a2a-0426-4bb2-8368-10ca4d042a13"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/staged_cms_mapping_table"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d308d0ee-bf66-4926-bc4a-18bc4049a716"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicaid\
+    \ Datasets - OMOP format/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2bc1565d-2f3c-4d6c-bd41-f2e50cda64ea"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/durable_medical_equipment"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a30c837c-d3f3-4fff-8ce3-8ede71a6a856"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/home_health"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7daa1852-5c7c-4f4f-b748-5eee2fa78f6d"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/hospice"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.915912a3-5194-44bd-be20-8a82d9963877"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/inpatient"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3b8a7e24-5e14-4e9b-9fc2-10d6fd93e98a"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/member_benefit"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d3f33765-f2b7-4322-a369-e28f34aa04fb"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/part_d"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d4b750a9-c591-4796-85db-5d7e1e3f87e7"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/professional_billed"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1be81608-ba24-435d-a336-c6125ae77f9c"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - Claims format/skilled_nursing"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.734fd953-1e70-4185-884e-c0de29cc5ce1"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.bb2621ee-08cc-4a4c-bee3-0ae2372a7e3b"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/cms_person_id_to_n3c_person_id"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d7a0b290-0aad-43c6-8aee-99851b49561b"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9d6cddc9-86f8-4794-9b45-bd28b8fcea4e"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0f837305-b2c1-4b14-acc3-eecf0485f86f"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.000a5243-51c1-422e-b30e-a4846950785a"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.10e3a38f-790a-4ef8-aa2e-f27014b25e77"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.15d7354a-959d-4920-b95f-961cb63a2476"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3385ce7c-3c23-4b9f-a7f9-dcea2970211a"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/health_system"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.76e9ecd4-cdc0-4b3e-b1f6-da5cae3a415b"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5516ac04-a3ee-404b-84e9-4704389ebc26"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.35475bbd-b3af-4143-b796-6c978e402334"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8515b6f4-0e1a-4276-a8eb-794a4ad27a8d"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.18621800-904e-44b8-a4c1-09fb32653bc0"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cb35cfc6-6b39-47dc-a6ba-43275f00da3a"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3608c8e0-9420-4542-9887-6ec098f8c7de"
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/Medicare\
+    \ Datasets - OMOP format/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2ae4a02f-937d-4087-a580-b81c269f0c1e"
