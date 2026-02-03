@@ -1,0 +1,12 @@
+---
+mappings:
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/TriNetX/Site 264/site_264_trinetx_raw_unzipped"
+  modes:
+  - "BUILD"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/TriNetX/Site 264/site_264_trinetx_raw_unzipped"
+  rid: "ri.foundry.main.dataset.b3a146b1-6a3b-4f83-897d-4d47935a609e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/TriNetX/Site 264/site_264_trinetx_raw_zipped"
+  modes:
+  - "READ"
+  path: "/UNITE/Data Ingestion & OMOP Mapping/raw_data/TriNetX/Site 264/site_264_trinetx_raw_zipped"
+  rid: "ri.foundry.main.dataset.e1e6c9ff-809b-4dff-90e5-7e1fc1fc83b3"

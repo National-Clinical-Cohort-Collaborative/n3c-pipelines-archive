@@ -1,0 +1,102 @@
+---
+mappings:
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dbc84edf-14e7-4f24-8d7e-79f7bb6cde91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: PCORnet/Site 126/union_staging/staged/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.787dcdbe-4743-4230-be46-bd2aacb91577"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: PCORnet/Site 220/union_staging/staged/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4ae88bd5-de69-406c-bb47-218d31eff8f1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: PCORnet/Site 349/union_staging/staged/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c401af12-8699-4873-abaa-1f2acb2dfef6"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_126_NAACCR"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f17ec809-8091-4f9e-9867-4b6655f333c8"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_126_NAACCR_manifest"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cbab51a0-f941-4418-8b01-7424bbeb1749"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_179_NAACCR"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c1c3f4b4-507f-43ad-b287-335627174a72"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_179_NAACCR_manifest"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4f50ec94-0a0a-4b0d-aece-615004492151"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_220_NAACCR"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.970bb1ed-6772-4840-87b5-ed835a0b0cfd"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_220_NAACCR_manifest"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.58aff6e9-6859-4766-9dc6-06f80ded7d6e"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_349_NAACCR"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.56e14965-c0aa-4268-b264-3978387f67d3"
+- alias: "/UNITE/N3Clinical PPRL Raw Incoming Data/NAACCR/Site_349_NAACCR_manifest"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.553c417b-8ba1-4123-bf99-3b17c6756a46"
+- alias: "/UNITE/NAACCR Logic - RWD Pipeline - N3Clinical/datasets/AllSites_N3Clinical_NAACCR_Data"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1bd417f-c469-4019-90b5-975f7358918e"
+- alias: "/UNITE/NAACCR Logic - RWD Pipeline - N3Clinical/datasets/NAACCR_manifest_N3Clinical"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.efa81375-0f68-403f-b2d6-322536dbb3e7"
+- alias: "ri.foundry.main.dataset.15e186b3-cbee-4cc0-85e0-fcec6be62752"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.15e186b3-cbee-4cc0-85e0-fcec6be62752"
+- alias: "ri.foundry.main.dataset.615fb648-7f0d-40e7-b2ca-78c2ebc553a0"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.615fb648-7f0d-40e7-b2ca-78c2ebc553a0"
+- alias: "ri.foundry.main.dataset.650a3b9c-d05e-4167-904a-ba0712282593"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.650a3b9c-d05e-4167-904a-ba0712282593"
+- alias: "ri.foundry.main.dataset.b1bd417f-c469-4019-90b5-975f7358918e"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1bd417f-c469-4019-90b5-975f7358918e"
+- alias: "ri.foundry.main.dataset.fcc4f44f-ecb4-4005-b9ef-22009bfdbbe6"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fcc4f44f-ecb4-4005-b9ef-22009bfdbbe6"

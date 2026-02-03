@@ -1,0 +1,74 @@
+---
+mappings:
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/condition_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2ccc3011-db3a-47de-b6fe-4fc0908129c8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/device_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.de40ba11-7679-45fe-a34c-2fb986a989a7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/drug_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0e99bf0a-15ec-44db-b71d-8b711c8eab3a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/measurement"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d36f1ed4-2d1f-42c0-a6d4-183c77d8cf3e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/observation"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5f465bad-f62f-4fa7-832f-e8e8e653169b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/procedure_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e9c4a3f-516e-4288-8ec5-946c787ddb5a"
+- alias: "/UNITE/[PROJ-VMW7ZYW] [N3Clinical Operational] Data Quality/DQ Logic/Pre-union\
+    \ Staging/datasets/union_prepared_condition"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b73babf2-c04e-46a0-9e31-77ef590e0698"
+- alias: "/UNITE/[PROJ-VMW7ZYW] [N3Clinical Operational] Data Quality/DQ Logic/Pre-union\
+    \ Staging/datasets/union_prepared_device"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1e3f9fc5-705e-491a-b25d-6a03df184e86"
+- alias: "/UNITE/[PROJ-VMW7ZYW] [N3Clinical Operational] Data Quality/DQ Logic/Pre-union\
+    \ Staging/datasets/union_prepared_drug"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d6647283-722d-43e8-8b47-1c645e21077d"
+- alias: "/UNITE/[PROJ-VMW7ZYW] [N3Clinical Operational] Data Quality/DQ Logic/Pre-union\
+    \ Staging/datasets/union_prepared_measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2b651a73-d8d4-476a-a759-4e15bb9810fb"
+- alias: "/UNITE/[PROJ-VMW7ZYW] [N3Clinical Operational] Data Quality/DQ Logic/Pre-union\
+    \ Staging/datasets/union_prepared_observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.db7dda69-811c-4eee-8090-d22f6952e01a"
+- alias: "/UNITE/[PROJ-VMW7ZYW] [N3Clinical Operational] Data Quality/DQ Logic/Pre-union\
+    \ Staging/datasets/union_prepared_procedure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a93fa944-5bbd-446c-9bbc-6f30373ee32a"

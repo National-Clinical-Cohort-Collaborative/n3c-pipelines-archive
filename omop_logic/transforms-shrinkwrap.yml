@@ -1,0 +1,2208 @@
+---
+mappings:
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/metadata/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.efdfca31-f69a-4ca8-9c07-2b3bc1f3fb1e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/metadata/data_counts_check"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5c3f4bd9-4fc9-41f0-825a-4fbc4d8f1f7a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/metadata/data_counts_filtered"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.37a47686-d837-4aa2-9350-b218dced1f1c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/metadata/manifest"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1b88692c-76e7-4e47-872f-d0fa1cabeb62"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/metadata/payload_status"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.158eb4de-b876-4463-b8fd-19442fa2a85f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/00 - unzipped/payload_filename"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.627be9f7-9f84-44cc-bf10-815820263190"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/00 - unzipped/unzipped_raw_data"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1ed9cd9e-09b3-41a4-8037-b278b11e544c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/cached/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c779ad3d-45ad-4f98-baeb-2a48f3dc4bd0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/cached/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dbf0c3a4-699e-4faf-a0e0-a2c22740d4a8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7f3c574d-bd05-4436-9137-2aa123244168"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8ccdcad9-9fd7-4490-bd1c-cdb8f90199fb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7b5efd8e-f236-4326-9d1b-2c2d7aa6d694"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a964dbaa-fb17-4f02-af08-59d45dabb170"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/data_counts"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ea815404-9649-4b04-bbe7-5e841f3cfa3a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.69f41ab7-bb83-46c9-b2aa-a45fa2995ecf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e0b85923-96c9-4eb5-87a1-de579726902d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/dose_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.aa3df621-0aad-42d0-81f0-55b37177a874"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.058aa558-7260-4642-ae4c-3d8c82d914c0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f0bf2494-3d17-40bc-afd2-bd5cbce42bf6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.eee774fa-4b1d-427e-9da3-dfc19a2a0072"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/manifest"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.05acf582-5391-46a2-88bb-a73bc9c82518"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7b6c7143-75d5-4f5b-94fd-18e200f434f8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.04b1a3e5-d8f5-467e-ae28-8cfc24149882"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.37979d30-054c-4e50-a350-0ccc48c351de"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d2c85cfd-760a-490f-a3af-67c68eee8c0d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4780ae8f-5fc8-4985-949a-f8fc1c841bd1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f98da8bc-79a3-4d8e-a64f-056ebe65514e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3fcacd9e-f342-444e-a706-bf643e43efad"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cd3c3b98-a7f9-4d5c-87ad-23501b88f7c4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.06b91c8a-eec7-47b4-a4e3-41c7de8e4fe4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/errors/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.87fdc694-5111-4c02-beab-ce00ebc4a071"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/metadata/data_counts"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c8d9c855-3307-49da-b723-253f25e639a4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/metadata/manifest"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3e9bb2d6-3708-4ca3-bd6a-22b7ea7c5d3d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/optional/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.74ec2f14-0ad1-45d2-af96-932afc4da495"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/optional/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fddbb5ee-c24a-4440-ae02-171050242c6a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/optional/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3a3d609c-4ba4-487f-9059-cffec373a17c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/optional/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.54732215-c3e0-4057-a818-ba4582641f42"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/optional/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ed70ebf5-ebb7-413c-bc57-4fb1dcc6e09f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/optional/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7cbe02fa-5998-4cf7-967c-500dc4023ad5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.99f14610-2424-40c1-a7f8-4af22e85f929"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.eb94856b-9ea8-4e10-bc61-b1753620135e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3a022889-854d-4576-a27e-8058322ccaf1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ea7334d5-e6cb-454e-bcc3-2f64ee701ccd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cb685114-08bc-4017-b499-d09d20946458"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e4538e14-83e7-4fd9-bccd-d28200ea3119"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.aff699a9-f335-4481-b40e-1ce7b1e6e3f3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3268628f-d3fb-4bd3-af8a-bcb9f0352bed"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.047388b0-b4ac-4ae1-a161-f55ee9f55a8f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ee6629a6-0692-426d-aa8b-8f3572cd84a0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4e913d43-dbea-4098-8ff2-e0d7a340af3f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/01 - parsed/required/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d914a2cd-d392-4017-8556-b95262528f2d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4c07465a-f147-4a4e-b06d-ac44f3e34a6e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d4d71a77-3575-424a-bb59-34cd181754bc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7a36fb36-3526-4f3c-859d-82d8af933e7e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.58e43674-7993-487d-a992-864d0b681ff2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.040e96c4-e68d-4f6c-bf28-59e2f1691964"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.eb2d62b1-5aa4-4e18-ba85-d649563f51cf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d2b2b11-9625-41c5-b060-310d8492159e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9b461f0b-5775-4a9e-a718-273f60ebed10"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7015f0c5-20f0-4d60-b3c0-640dcb02d0b5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.13602758-7ebc-45d8-87d0-8a23c3a92258"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.35a42bbb-0e7d-48d8-b9a1-e78f2942b106"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dff883f0-79b6-45e4-a511-9ca89e802105"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5ecee082-275f-4e53-8be0-6ac963998a37"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c0f15c2c-525d-4a20-ac0b-911ad70e9bd0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8382ed45-615c-46a9-93eb-a4849d8604df"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.94dda243-3698-4427-9949-aee329bf2994"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5c0b08d0-7527-492c-801f-a2bd33996b70"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.79d22407-2033-46ad-9e73-7d43fbd5be91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f4e71f9c-1fb4-43f9-aad1-842a29b885e4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - clean/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.29b82395-2fa8-4224-b7ff-b8bc950b517e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.962c7a8f-368a-446e-abb5-9efd5df78457"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ea1f73fa-9e6e-4928-83e1-06d8685c5869"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2ccc3011-db3a-47de-b6fe-4fc0908129c8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d44bd1b-5fe5-402b-8e13-1136787c27a6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1de9a49e-4959-48cb-9b45-8309c714401d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.de40ba11-7679-45fe-a34c-2fb986a989a7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/dose_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7df84794-0e89-4831-b9e9-133d23ae5b49"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.311da417-1047-4c72-905e-9e2ec300a4fe"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0e99bf0a-15ec-44db-b71d-8b711c8eab3a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.638b06f8-2bfd-4bf4-be18-5ae186109b84"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d36f1ed4-2d1f-42c0-a6d4-183c77d8cf3e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.49b2f81e-ca33-4b52-9ebd-aa30a8f8fb30"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.144e923a-22f7-453d-ac0e-6b6b8c2f43b6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5f465bad-f62f-4fa7-832f-e8e8e653169b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.55d4c948-f1cd-4e79-b9b4-2c4ff2020831"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.163a9903-7852-4f09-a774-9d81f8672244"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e9c4a3f-516e-4288-8ec5-946c787ddb5a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6adaa641-cff0-4628-984d-518b0d712f20"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.63c67af0-f8f7-4ac7-9ae2-97d5a9817b2d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/02 - prepared - 01/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.afb8a46a-a052-4be9-ade5-1fc547ac2dde"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/care_site"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.50ebb3c2-f48b-43e6-bfbd-6f47e3a33f5f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/condition_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e6ab2e8a-0d19-432c-9e33-989e42cf866e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/condition_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e1b241e5-9b80-485a-abab-98159245fd09"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/control_map"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8646a54c-e315-4fdc-92c0-aef00f817c23"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/device_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.813f1ad9-71b0-43ba-8692-5de0bb3b66d3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/dose_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5af76cfd-5869-48ea-8d0d-080cb9afae20"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/drug_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.21a72f8d-4c45-47aa-9b93-652bd6feab5c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/drug_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0da5f597-e7d7-471b-8613-883c3601e1ec"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/location"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1a4bb63-8f02-4ccb-9386-68d46eff7db8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/measurement"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e4ca1b5-475d-4272-833a-1ae1834f45e2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/note"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.09380fbf-ab78-4930-ab18-b492bb5cb968"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/note_nlp"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ed167d32-dd98-4eb9-b2aa-1c4fba7a822d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/observation"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6a46a32b-27da-486d-9162-a5ace12fe004"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/observation_period"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.db7a68ca-7ba8-4bfb-ae11-49731d5ffd05"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d35dbdfd-08f4-42de-a65f-38ed377476dd"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/procedure_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.184e67c2-db8d-4476-addd-58eca4ab5d89"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/provider"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5025baee-cb2f-4d99-a262-0d159dea593f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/visit_detail"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.67da37c5-7933-4c6c-8ef6-575e4d47a1aa"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/03 - local id generation/visit_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a51a8aa3-bf84-4976-b41e-149cf2632f2c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dca7be93-48e6-4509-90c7-cf2ac2aa4e6e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.88acfe5a-f9b8-443c-8d45-068903f1b617"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f24e9e3f-e606-4ae4-b379-c51c3b885db8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.99a08340-2019-4815-bbd2-dd5bf88f78e0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9b1a8f33-9824-427f-8daf-2f691f8ebe4f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/dose_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2c1dd969-f508-4855-8814-9ebce04cedf2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c5c95243-be1e-41ed-93d3-1ae2d9cc2182"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5f6e2fa9-8bbb-442d-ada5-3fc804c5fed5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.57fe16e3-cccb-4849-b3e4-1c2ef6b4d3eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.11f53f28-d095-47eb-ba60-818faae20e76"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e18a79c-a78b-4954-bd39-363dd1ffb199"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ecc602fd-3632-49bb-9198-329e5a199cfe"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c1da52e2-f2ec-47f7-9e60-215444ec58c0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5c84bb49-1f94-4ea9-9c88-4601f7cfe993"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1be8a50a-dd0c-4460-8f9d-bff773bfca9d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.40396ebe-45ee-4131-a76e-2cd9c4f1f819"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.62a1130d-add2-4677-a8ba-a3503e61133d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dc33f237-da0b-43f4-be27-dcc68b8fb0b6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/04 - id collision lookup tables/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d4e687c-2a97-4cca-9347-6f7df0c2d8ce"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/care_site"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.267c41ad-bc83-438b-8f99-ad573fc7a7f9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/condition_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1b6ce48-40be-4b25-9abc-f712e93a940f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/condition_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7d96ee42-cf1b-4429-989a-ed6d01e5b591"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/control_map"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3b7652e7-7306-4b8a-94d2-bf673ab866ca"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/death"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fc27922f-3361-496e-8cce-6bd65e6a9e20"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/device_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d2055022-3ee2-4bdd-bfc3-2f4794309b49"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/dose_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a42930ac-f39a-43d3-9283-6a98ac69291e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/drug_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d87524cd-414e-4179-b377-3984c27dfb19"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/drug_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6d188b44-0fb8-4281-ac85-4b006f1902bc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/location"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cf7fb682-fd88-4cc9-b6a4-d86a275692c4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/measurement"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e764662-c433-4010-8b48-907bffa682c0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/note"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.19e13d70-3b53-4995-955d-a75d65dfbebe"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/note_nlp"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.512633c0-74d3-4378-8197-af9142537523"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/observation"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1afacb02-d10f-4466-90a6-514316b2c40f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/observation_period"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8527b64b-1934-4d60-a6a4-8b3c9c863987"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3b888e3f-a7f7-4251-a585-b0d0d987e29d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/procedure_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.853f4c7d-5820-4aff-9337-0447e01d6ae0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/provider"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.841cfefa-0485-48b7-a360-f359ab610eac"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/visit_detail"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ac5cba26-3e69-4aed-bf27-9a5a9f3da074"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/05 - global id generation/visit_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e5f71652-b192-48f9-aff4-b68c8ebd576a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fb03d094-54ce-403c-a0ef-037ae37580be"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b6095dd8-f9ba-4178-b1d0-69aa2b221c03"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0658d990-3ade-4a79-8f4e-ad1b6124be85"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.255e9125-d7cf-4996-8f60-62279bef50ac"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3d1a71df-efe5-4c46-a050-f1b764ccff0f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.78fcacf9-5020-4325-88ce-8da087da4f00"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/dose_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5a4ddb71-eb3c-4e90-a401-0059527621ee"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a41451e1-0bb4-4d7e-a874-f72d3dc45ebe"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4ace6831-f982-4ca5-b340-ecc7edb57e8b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a7287fea-f8a1-4c83-85fe-eba510582497"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e34029e7-03f3-4829-9b80-cb12b3240884"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4233cf3c-0b6b-441b-8cf6-43dad1bdc5c2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9ccf4612-bd60-41dd-b95b-8977b733b27e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fd76c73b-626b-42e2-8cc5-d53eaf45422e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4251df78-68c5-4903-be7a-9c4066241cf9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.66828ed0-6396-416d-ba18-4babff5add54"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.966b84a4-e008-400c-85e4-197da5044cf1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f893b22a-a7a2-458c-a499-32829706f429"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f71ef766-5954-41ba-ba6b-39c07884d6f9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/nulled/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c0b76915-1f28-49f5-8cdf-b3adc2508f12"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/pre_clean_removed_person_ids"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e1fb96c2-c396-4e55-9f48-721bdd025376"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f097ca62-ff4e-4b98-b7bf-815657ff6c9d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.84d8bc1e-af75-4ef1-93f2-9f02c221b7f2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a7fb7101-fac8-4461-a5e1-2500610fcd50"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d2564163-f3df-4a24-8926-f43a91050919"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4bcd44ca-a2c0-4ffc-b0a5-540bc9d200f2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fb9acab5-d219-44a2-9a6b-583b39322d8e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.35ae42a0-fddb-4039-b1e5-4dbe8b624c46"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7d8d3123-9178-4e21-877d-f1fe59a7fe9f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a4275d02-025b-46a9-ba1b-5cefb2c211e6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8b52e157-8d87-4cef-80bd-7f2e3e8d3d22"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c9ce9904-3535-4778-a89e-23cf1c4fd4eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3ad57338-ccd8-4d5e-b256-fbff7dadae05"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.bc64d35c-f422-4215-9ef3-19e873a75ea0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f94625f7-f6b0-4939-b19e-4d537b65b060"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.44486541-f67f-4657-bbce-cff1b865f21a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a17aed5e-4e40-48d4-927b-3a2da86da59d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d2c09843-58f6-4868-b943-35d921c17bbb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d14b5167-937d-4908-9e15-1c5730e84303"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.deae3f43-4d9b-4bdd-8759-e339438ce557"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/processed/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8d6ee103-b197-437f-b110-14213c988643"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.11b9dd19-e9fd-42da-8821-712767c73336"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7eaf6167-51ea-4e3c-aeb5-9625d434f2a6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.436914e4-e866-4f83-9b88-b5588e2d4075"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6ccad43c-a583-4037-a58c-9dcf7c9c9ff6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7013dfbb-f6df-4ae9-b154-e2cd36f8a70d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8de13304-6f87-4cca-8ba1-43eda5f06daa"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/dose_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7b363bd7-62d4-4253-97a3-07c84e0f9105"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cf8c8f2e-b5e6-4d4e-8804-5a82e0bc7296"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d4cafd1-2978-478b-a5a1-eb6a69fc7bde"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.753b4ff6-8a4a-4fbd-b977-8793f2442e8e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c3a8886c-d8f0-4bda-877e-6feb598555b1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f2322837-6fdf-4447-9377-7376c770d06f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.90adb2f7-dd31-41ef-bfb1-ad4e1c9c979a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0b645c6a-c9ad-4e28-adf4-f0ed8c9894a1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ece35831-bca1-48c0-b6a3-28888cc1055c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3094e8b9-94e1-4a41-8759-0a9665fb1d70"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.33cd4df9-bf43-4f29-b4ad-0b7156f32134"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.21ffdfc6-ae34-48c0-849c-bd8b6959cd90"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.24f6466c-1439-40b5-8232-599657df06fc"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/06 - pre clean/removed/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e953ee4d-0c9a-4634-9bb4-62ebfb533215"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.51ff6afb-3ec6-4b05-acfd-ef34924194ab"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1172825d-bbdb-4288-9313-0fc549a437f0"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.81cc6196-641d-48db-b8b2-d1fda9ce6101"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.513896e6-d470-4e67-a134-5c5be4596ab9"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.96cc0d2d-e736-47e2-8d05-2c08145448c3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.75946ae7-ef72-4f88-8cf6-aec9f4efc7b7"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2359c98d-3113-4ea9-a3b0-c9a8666fcee5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4725b16b-9d08-41c0-944c-bb58112f277d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.40746680-5d33-4531-9bd0-c96e90e5f9a4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.381cdf83-5b0a-49fc-baf3-cbe33bd97c04"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7d517347-0628-4bef-8065-82fecaefb669"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fc3d37e0-d586-4e3b-9c9a-d8ac09654f64"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c3750f39-972c-4126-9f01-a0cbcd9e3b39"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.66ea4d48-0210-44a5-bd61-ddfac80f132a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d64f870a-a7dc-4862-9e28-8329313d4a8b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.bd2f848e-490d-457c-9669-ba8ad528d39d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.39539897-2918-46ef-bee2-c9db43612f84"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b0e2f893-01ee-4593-8200-ba01fd44a79c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8db1281f-72b3-447b-84d6-6b1047d5e16d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/07 - clean/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a6e9dbe1-893e-4c1b-a568-fafc1677e9f6"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/care_site"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e69e6089-3022-463f-a663-2d06bd27be9e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/condition_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c0a77f3d-2b38-4b2e-b2c1-8b61b88d303b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/condition_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.70a025b8-21ac-4b8d-8f9d-218f8c801bd2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/control_map"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7887a93d-8a30-4945-b8a0-aae87dce4dde"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/death"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.83941303-140e-4c01-a3ca-21497772b4aa"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/device_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7ccd9d56-fb7c-42f8-826c-902807b4f8f8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/dose_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d5d181c3-914c-48ec-bdc6-8195a8c57db1"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/drug_era"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5836b76e-8797-4ae0-bc2b-0317a1780b66"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/drug_exposure"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4c930a7d-eff1-4a80-9207-c06646237a46"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/location"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dc67e890-5874-44f2-8d9f-6650d102475f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/measurement"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.34471e00-9981-4df8-86eb-cb4cfafc1f1e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/note"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ddda6cdf-5b77-48ef-bbe8-61fd48b76354"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/note_nlp"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1863662a-d2d5-45b9-9069-5e3a32dcfab2"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/observation"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.96ffc283-29e3-4ca2-8fa3-cd9a49856cb4"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/observation_period"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7be83533-00f0-48de-9b2c-c66f44c131a5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e811eddb-4c1f-494d-b1ae-9632cc9b31f3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/procedure_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6fefb55d-d272-4f59-b1a0-94ad50e3e917"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/provider"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1a5849f5-8226-4f1d-85a4-c6c6f1051c2f"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/visit_detail"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5cfd8434-3138-4b70-887d-60849a8994da"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/transform/08 - final health check/visit_occurrence"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c6e66756-de91-4a36-b52f-09c1b45eeb66"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.00c3cc01-e68b-49a6-8e3b-509de2c6430c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ac08586b-a69d-48c9-891a-d3ce43479eaf"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c5c3b8e7-0117-4d3b-bc76-d1800cb7ff24"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ec3f8937-8676-48d1-8741-b5c030de49e5"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3c622cd1-4ab0-4774-8dcc-510e94451029"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.11b30785-28f5-4e88-be1a-82516cfd421a"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/dose_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4d17849a-1f81-4ba6-b04e-652170baaf6d"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f68f1bca-daa0-493a-812e-7b7a2388d149"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6ed76b0e-acd3-4a13-8291-82ea37248cc8"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.426f8cba-651f-478d-adb1-9d066fee34eb"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d1ea4253-fac2-4cdb-8296-aa7244781e0c"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7e8370c9-cf1e-4d5f-af6b-11c78ba69dda"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.892919f4-e8ba-4a0d-81f7-17fd064b5f12"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e5be5dd6-08a0-4213-85c5-f1d195296d53"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.438a0728-e026-444b-87b3-08656b68ae8b"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/person"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dbc84edf-14e7-4f24-8d7e-79f7bb6cde91"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.454d5c3f-3325-44f1-baf2-9bbd70c2e48e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.150d3610-4d11-49b0-9874-7c26c19df40e"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a6425aec-af42-4326-80c7-8aacf53611c3"
+- alias: "/UNITE/Data Ingestion & OMOP Mapping - RWD Pipeline - N3Clinical/Source\
+    \ Data Model: OMOP/Site 179/union_staging/staged/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9a499e91-2922-4fcb-b2db-015f6b2590a3"
+- alias: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+- alias: "ri.foundry.main.dataset.04db997c-6672-4b02-ae5e-6c4d50817292"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.04db997c-6672-4b02-ae5e-6c4d50817292"
+- alias: "ri.foundry.main.dataset.0895fb38-6c41-4146-a30f-9213c78f6e80"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0895fb38-6c41-4146-a30f-9213c78f6e80"
+- alias: "ri.foundry.main.dataset.09380fbf-ab78-4930-ab18-b492bb5cb968"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.09380fbf-ab78-4930-ab18-b492bb5cb968"
+- alias: "ri.foundry.main.dataset.0da5f597-e7d7-471b-8613-883c3601e1ec"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0da5f597-e7d7-471b-8613-883c3601e1ec"
+- alias: "ri.foundry.main.dataset.0e1acd60-6eeb-49e1-9189-1b8a6221ac29"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0e1acd60-6eeb-49e1-9189-1b8a6221ac29"
+- alias: "ri.foundry.main.dataset.0e99bf0a-15ec-44db-b71d-8b711c8eab3a"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0e99bf0a-15ec-44db-b71d-8b711c8eab3a"
+- alias: "ri.foundry.main.dataset.11f53f28-d095-47eb-ba60-818faae20e76"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.11f53f28-d095-47eb-ba60-818faae20e76"
+- alias: "ri.foundry.main.dataset.13602758-7ebc-45d8-87d0-8a23c3a92258"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.13602758-7ebc-45d8-87d0-8a23c3a92258"
+- alias: "ri.foundry.main.dataset.144e923a-22f7-453d-ac0e-6b6b8c2f43b6"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.144e923a-22f7-453d-ac0e-6b6b8c2f43b6"
+- alias: "ri.foundry.main.dataset.163a9903-7852-4f09-a774-9d81f8672244"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.163a9903-7852-4f09-a774-9d81f8672244"
+- alias: "ri.foundry.main.dataset.184e67c2-db8d-4476-addd-58eca4ab5d89"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.184e67c2-db8d-4476-addd-58eca4ab5d89"
+- alias: "ri.foundry.main.dataset.19e13d70-3b53-4995-955d-a75d65dfbebe"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.19e13d70-3b53-4995-955d-a75d65dfbebe"
+- alias: "ri.foundry.main.dataset.1afacb02-d10f-4466-90a6-514316b2c40f"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1afacb02-d10f-4466-90a6-514316b2c40f"
+- alias: "ri.foundry.main.dataset.1be8a50a-dd0c-4460-8f9d-bff773bfca9d"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1be8a50a-dd0c-4460-8f9d-bff773bfca9d"
+- alias: "ri.foundry.main.dataset.1de9a49e-4959-48cb-9b45-8309c714401d"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1de9a49e-4959-48cb-9b45-8309c714401d"
+- alias: "ri.foundry.main.dataset.21a72f8d-4c45-47aa-9b93-652bd6feab5c"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.21a72f8d-4c45-47aa-9b93-652bd6feab5c"
+- alias: "ri.foundry.main.dataset.267c41ad-bc83-438b-8f99-ad573fc7a7f9"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.267c41ad-bc83-438b-8f99-ad573fc7a7f9"
+- alias: "ri.foundry.main.dataset.29c4419f-56ed-48af-8038-7178f27c3acc"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.29c4419f-56ed-48af-8038-7178f27c3acc"
+- alias: "ri.foundry.main.dataset.2c1dd969-f508-4855-8814-9ebce04cedf2"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2c1dd969-f508-4855-8814-9ebce04cedf2"
+- alias: "ri.foundry.main.dataset.2ccc3011-db3a-47de-b6fe-4fc0908129c8"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2ccc3011-db3a-47de-b6fe-4fc0908129c8"
+- alias: "ri.foundry.main.dataset.2d44bd1b-5fe5-402b-8e13-1136787c27a6"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d44bd1b-5fe5-402b-8e13-1136787c27a6"
+- alias: "ri.foundry.main.dataset.2d4e687c-2a97-4cca-9347-6f7df0c2d8ce"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2d4e687c-2a97-4cca-9347-6f7df0c2d8ce"
+- alias: "ri.foundry.main.dataset.3332ae36-a617-4ec4-bfde-b4d5a3cc6fbd"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3332ae36-a617-4ec4-bfde-b4d5a3cc6fbd"
+- alias: "ri.foundry.main.dataset.3b7652e7-7306-4b8a-94d2-bf673ab866ca"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3b7652e7-7306-4b8a-94d2-bf673ab866ca"
+- alias: "ri.foundry.main.dataset.3b888e3f-a7f7-4251-a585-b0d0d987e29d"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3b888e3f-a7f7-4251-a585-b0d0d987e29d"
+- alias: "ri.foundry.main.dataset.40396ebe-45ee-4131-a76e-2cd9c4f1f819"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.40396ebe-45ee-4131-a76e-2cd9c4f1f819"
+- alias: "ri.foundry.main.dataset.4540b6c9-cbb2-45f7-8c08-35e24b27e0c8"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4540b6c9-cbb2-45f7-8c08-35e24b27e0c8"
+- alias: "ri.foundry.main.dataset.49b2f81e-ca33-4b52-9ebd-aa30a8f8fb30"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.49b2f81e-ca33-4b52-9ebd-aa30a8f8fb30"
+- alias: "ri.foundry.main.dataset.5025baee-cb2f-4d99-a262-0d159dea593f"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5025baee-cb2f-4d99-a262-0d159dea593f"
+- alias: "ri.foundry.main.dataset.504c654b-01bd-4285-9a98-961827d926ab"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.504c654b-01bd-4285-9a98-961827d926ab"
+- alias: "ri.foundry.main.dataset.50ebb3c2-f48b-43e6-bfbd-6f47e3a33f5f"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.50ebb3c2-f48b-43e6-bfbd-6f47e3a33f5f"
+- alias: "ri.foundry.main.dataset.512633c0-74d3-4378-8197-af9142537523"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.512633c0-74d3-4378-8197-af9142537523"
+- alias: "ri.foundry.main.dataset.55d4c948-f1cd-4e79-b9b4-2c4ff2020831"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.55d4c948-f1cd-4e79-b9b4-2c4ff2020831"
+- alias: "ri.foundry.main.dataset.57fe16e3-cccb-4849-b3e4-1c2ef6b4d3eb"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.57fe16e3-cccb-4849-b3e4-1c2ef6b4d3eb"
+- alias: "ri.foundry.main.dataset.5af76cfd-5869-48ea-8d0d-080cb9afae20"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5af76cfd-5869-48ea-8d0d-080cb9afae20"
+- alias: "ri.foundry.main.dataset.5c426fdd-0f71-4d4f-a120-b9a3d68bebdd"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5c426fdd-0f71-4d4f-a120-b9a3d68bebdd"
+- alias: "ri.foundry.main.dataset.5c84bb49-1f94-4ea9-9c88-4601f7cfe993"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5c84bb49-1f94-4ea9-9c88-4601f7cfe993"
+- alias: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+- alias: "ri.foundry.main.dataset.5f465bad-f62f-4fa7-832f-e8e8e653169b"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5f465bad-f62f-4fa7-832f-e8e8e653169b"
+- alias: "ri.foundry.main.dataset.5f6e2fa9-8bbb-442d-ada5-3fc804c5fed5"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5f6e2fa9-8bbb-442d-ada5-3fc804c5fed5"
+- alias: "ri.foundry.main.dataset.62a1130d-add2-4677-a8ba-a3503e61133d"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.62a1130d-add2-4677-a8ba-a3503e61133d"
+- alias: "ri.foundry.main.dataset.63c67af0-f8f7-4ac7-9ae2-97d5a9817b2d"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.63c67af0-f8f7-4ac7-9ae2-97d5a9817b2d"
+- alias: "ri.foundry.main.dataset.67da37c5-7933-4c6c-8ef6-575e4d47a1aa"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.67da37c5-7933-4c6c-8ef6-575e4d47a1aa"
+- alias: "ri.foundry.main.dataset.6a46a32b-27da-486d-9162-a5ace12fe004"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6a46a32b-27da-486d-9162-a5ace12fe004"
+- alias: "ri.foundry.main.dataset.6adaa641-cff0-4628-984d-518b0d712f20"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6adaa641-cff0-4628-984d-518b0d712f20"
+- alias: "ri.foundry.main.dataset.6d188b44-0fb8-4281-ac85-4b006f1902bc"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6d188b44-0fb8-4281-ac85-4b006f1902bc"
+- alias: "ri.foundry.main.dataset.7d96ee42-cf1b-4429-989a-ed6d01e5b591"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7d96ee42-cf1b-4429-989a-ed6d01e5b591"
+- alias: "ri.foundry.main.dataset.7df84794-0e89-4831-b9e9-133d23ae5b49"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7df84794-0e89-4831-b9e9-133d23ae5b49"
+- alias: "ri.foundry.main.dataset.813f1ad9-71b0-43ba-8692-5de0bb3b66d3"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.813f1ad9-71b0-43ba-8692-5de0bb3b66d3"
+- alias: "ri.foundry.main.dataset.841cfefa-0485-48b7-a360-f359ab610eac"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.841cfefa-0485-48b7-a360-f359ab610eac"
+- alias: "ri.foundry.main.dataset.8527b64b-1934-4d60-a6a4-8b3c9c863987"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8527b64b-1934-4d60-a6a4-8b3c9c863987"
+- alias: "ri.foundry.main.dataset.853f4c7d-5820-4aff-9337-0447e01d6ae0"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.853f4c7d-5820-4aff-9337-0447e01d6ae0"
+- alias: "ri.foundry.main.dataset.8646a54c-e315-4fdc-92c0-aef00f817c23"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8646a54c-e315-4fdc-92c0-aef00f817c23"
+- alias: "ri.foundry.main.dataset.88acfe5a-f9b8-443c-8d45-068903f1b617"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.88acfe5a-f9b8-443c-8d45-068903f1b617"
+- alias: "ri.foundry.main.dataset.8e18a79c-a78b-4954-bd39-363dd1ffb199"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e18a79c-a78b-4954-bd39-363dd1ffb199"
+- alias: "ri.foundry.main.dataset.8e4ca1b5-475d-4272-833a-1ae1834f45e2"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e4ca1b5-475d-4272-833a-1ae1834f45e2"
+- alias: "ri.foundry.main.dataset.8e764662-c433-4010-8b48-907bffa682c0"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e764662-c433-4010-8b48-907bffa682c0"
+- alias: "ri.foundry.main.dataset.8e9c4a3f-516e-4288-8ec5-946c787ddb5a"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8e9c4a3f-516e-4288-8ec5-946c787ddb5a"
+- alias: "ri.foundry.main.dataset.962c7a8f-368a-446e-abb5-9efd5df78457"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.962c7a8f-368a-446e-abb5-9efd5df78457"
+- alias: "ri.foundry.main.dataset.99a08340-2019-4815-bbd2-dd5bf88f78e0"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.99a08340-2019-4815-bbd2-dd5bf88f78e0"
+- alias: "ri.foundry.main.dataset.9b1a8f33-9824-427f-8daf-2f691f8ebe4f"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9b1a8f33-9824-427f-8daf-2f691f8ebe4f"
+- alias: "ri.foundry.main.dataset.a42930ac-f39a-43d3-9283-6a98ac69291e"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a42930ac-f39a-43d3-9283-6a98ac69291e"
+- alias: "ri.foundry.main.dataset.a51a8aa3-bf84-4976-b41e-149cf2632f2c"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a51a8aa3-bf84-4976-b41e-149cf2632f2c"
+- alias: "ri.foundry.main.dataset.ac5cba26-3e69-4aed-bf27-9a5a9f3da074"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ac5cba26-3e69-4aed-bf27-9a5a9f3da074"
+- alias: "ri.foundry.main.dataset.afb8a46a-a052-4be9-ade5-1fc547ac2dde"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.afb8a46a-a052-4be9-ade5-1fc547ac2dde"
+- alias: "ri.foundry.main.dataset.b1a4bb63-8f02-4ccb-9386-68d46eff7db8"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1a4bb63-8f02-4ccb-9386-68d46eff7db8"
+- alias: "ri.foundry.main.dataset.b1b6ce48-40be-4b25-9abc-f712e93a940f"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b1b6ce48-40be-4b25-9abc-f712e93a940f"
+- alias: "ri.foundry.main.dataset.b465ac97-310e-4343-bd6f-4b0fec8bcfa5"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b465ac97-310e-4343-bd6f-4b0fec8bcfa5"
+- alias: "ri.foundry.main.dataset.c1da52e2-f2ec-47f7-9e60-215444ec58c0"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c1da52e2-f2ec-47f7-9e60-215444ec58c0"
+- alias: "ri.foundry.main.dataset.c5c95243-be1e-41ed-93d3-1ae2d9cc2182"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c5c95243-be1e-41ed-93d3-1ae2d9cc2182"
+- alias: "ri.foundry.main.dataset.c5e0521a-147e-4608-b71e-8f53bcdbe03c"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c5e0521a-147e-4608-b71e-8f53bcdbe03c"
+- alias: "ri.foundry.main.dataset.c647f4a5-1faa-4277-add5-8574c6f3e2e1"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c647f4a5-1faa-4277-add5-8574c6f3e2e1"
+- alias: "ri.foundry.main.dataset.cd7d81b2-7251-4f80-bc2b-ed78305fd394"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cd7d81b2-7251-4f80-bc2b-ed78305fd394"
+- alias: "ri.foundry.main.dataset.cf7fb682-fd88-4cc9-b6a4-d86a275692c4"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cf7fb682-fd88-4cc9-b6a4-d86a275692c4"
+- alias: "ri.foundry.main.dataset.d2055022-3ee2-4bdd-bfc3-2f4794309b49"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d2055022-3ee2-4bdd-bfc3-2f4794309b49"
+- alias: "ri.foundry.main.dataset.d35dbdfd-08f4-42de-a65f-38ed377476dd"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d35dbdfd-08f4-42de-a65f-38ed377476dd"
+- alias: "ri.foundry.main.dataset.d36f1ed4-2d1f-42c0-a6d4-183c77d8cf3e"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d36f1ed4-2d1f-42c0-a6d4-183c77d8cf3e"
+- alias: "ri.foundry.main.dataset.d87524cd-414e-4179-b377-3984c27dfb19"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d87524cd-414e-4179-b377-3984c27dfb19"
+- alias: "ri.foundry.main.dataset.db7a68ca-7ba8-4bfb-ae11-49731d5ffd05"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.db7a68ca-7ba8-4bfb-ae11-49731d5ffd05"
+- alias: "ri.foundry.main.dataset.dc33f237-da0b-43f4-be27-dcc68b8fb0b6"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dc33f237-da0b-43f4-be27-dcc68b8fb0b6"
+- alias: "ri.foundry.main.dataset.dca7be93-48e6-4509-90c7-cf2ac2aa4e6e"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dca7be93-48e6-4509-90c7-cf2ac2aa4e6e"
+- alias: "ri.foundry.main.dataset.de40ba11-7679-45fe-a34c-2fb986a989a7"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.de40ba11-7679-45fe-a34c-2fb986a989a7"
+- alias: "ri.foundry.main.dataset.e1b241e5-9b80-485a-abab-98159245fd09"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e1b241e5-9b80-485a-abab-98159245fd09"
+- alias: "ri.foundry.main.dataset.e5f71652-b192-48f9-aff4-b68c8ebd576a"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e5f71652-b192-48f9-aff4-b68c8ebd576a"
+- alias: "ri.foundry.main.dataset.e6ab2e8a-0d19-432c-9e33-989e42cf866e"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e6ab2e8a-0d19-432c-9e33-989e42cf866e"
+- alias: "ri.foundry.main.dataset.ecc602fd-3632-49bb-9198-329e5a199cfe"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ecc602fd-3632-49bb-9198-329e5a199cfe"
+- alias: "ri.foundry.main.dataset.ed167d32-dd98-4eb9-b2aa-1c4fba7a822d"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ed167d32-dd98-4eb9-b2aa-1c4fba7a822d"
+- alias: "ri.foundry.main.dataset.f24e9e3f-e606-4ae4-b379-c51c3b885db8"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f24e9e3f-e606-4ae4-b379-c51c3b885db8"
+- alias: "ri.foundry.main.dataset.fc27922f-3361-496e-8cce-6bd65e6a9e20"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fc27922f-3361-496e-8cce-6bd65e6a9e20"

@@ -1,0 +1,82 @@
+vocabulary_id,vocabulary_name,vocabulary_reference,vocabulary_version,vocabulary_concept_id
+"ICD10CM","International Classification of Diseases, Tenth Revision, Clinical Modification (NCHS)","https://www.cdc.gov/nchs/icd/icd-10-cm.htm","ICD10CM FY2026 code descriptions",44819098
+"ICD9CM","International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 1 and 2 (NCHS)","http://www.cms.gov/Medicare/Coding/ICD9ProviderDiagnosticCodes/codes.html","ICD9CM v32 master descriptions",5046
+"Relationship","OMOP Relationship","OMOP generated",,44819235
+"Vocabulary","OMOP Vocabulary","OMOP generated",,44819232
+"NUCC","National Uniform Claim Committee Health Care Provider Taxonomy Code Set (NUCC)","http://www.nucc.org/index.php?option=com_content&view=article&id=107&Itemid=132","NUCC 25.0",44819137
+"NFC","New Form Code (EphMRA)","http://www.ephmra.org/New-Form-Codes-Classification","NFC 20160704",245
+"Visit Type","OMOP Visit Type","OMOP generated",,44819150
+"Drug Type","OMOP Drug Exposure Type","OMOP generated",,44819126
+"Plan","OMOP Health Plan","OMOP generated",,32471
+"Procedure Type","OMOP Procedure Occurrence Type","OMOP generated",,44819128
+"EphMRA ATC","Anatomical Classification of Pharmaceutical Products (EphMRA)","http://www.ephmra.org/Anatomical-Classification","EphMRA ATC 2016",243
+"ICD9Proc","International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS)","http://www.cms.gov/Medicare/Coding/ICD9ProviderDiagnosticCodes/codes.html","ICD9CM v32 master descriptions",44819099
+"LOINC","Logical Observation Identifiers Names and Codes (Regenstrief Institute)","http://loinc.org/downloads/loinc","LOINC 2.80",44819102
+"NDC","National Drug Code (FDA and manufacturers)","http://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html, http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip","NDC 20250817",44819105
+"SPL","Structured Product Labeling (FDA)","http://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm","NDC 20250817",44819140
+"MDC","Major Diagnostic Categories (CMS)","http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteInpatientPPS/Acute-Inpatient-Files-for-Download.html","2013-01-06",44819131
+"US Census","Census regions of the United States (USCB)","https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html","US Census 2017 Release",32570
+"Episode","OMOP Episode","OMOP generated","Episode 20201014",32523
+"Metadata","OMOP Metadata","OMOP generated",,32675
+"Observation Type","OMOP Observation Type","OMOP generated",,44819129
+"Condition Type","OMOP Condition Occurrence Type","OMOP generated",,44819127
+"Meas Type","OMOP Measurement Type","OMOP generated",,44819152
+"Condition Status","OMOP Condition Status","OMOP generated",,32887
+"Ethnicity","OMOP Ethnicity","OMOP generated","Ethnicity 20250807",44819134
+"None","OMOP Standardized Vocabularies","OMOP generated","v5.0 27-AUG-25",44819096
+"Currency","International Currency Symbol (ISO 4217)","http://www.iso.org/iso/home/standards/currency_codes.htm","2008",44819153
+"Obs Period Type","OMOP Observation Period Type","OMOP generated",,44819149
+"Visit","OMOP Visit","OMOP generated","Visit 20211216",44819119
+"CMS Place of Service","Place of Service Codes for Professional Claims (CMS)","http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/PhysicianFeeSched/downloads//Website_POS_database.pdf","2009-01-11",44819110
+"Race","Race and Ethnicity Code Set (USBC)","http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf","Version 1.0",44819109
+"Cost Type","OMOP Cost Type","OMOP generated",,5029
+"Sponsor","OMOP Sponsor","OMOP generated",,32472
+"Plan Stop Reason","OMOP Plan Stop Reason","OMOP generated",,32474
+"Device Type","OMOP Device Type","OMOP generated",,44819151
+"SOPT","Source of Payment Typology (PHDSC)","https://www.nahdo.org/sopt","SOPT Version 9.2",32473
+"UB04 Typ bill","UB04 Type of Bill - Institutional (USHIK)","https://ushik.ahrq.gov/ViewItemDetails?&system=apcd&itemKey=196987000",,32044
+"Gender","OMOP Gender","OMOP generated",,44819108
+"Cohort Type","OMOP Cohort Type","OMOP generated",,44819234
+"DRG","Diagnosis-related group (CMS)","http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteInpatientPPS/Acute-Inpatient-Files-for-Download.html","2011-18-02",44819130
+"ATC","WHO Anatomic Therapeutic Chemical Classification","http://www.whocc.no/atc_ddd_index/","ATC 2024-12-29",44819117
+"CIEL","Columbia International eHealth Laboratory (Columbia University)","https://wiki.openmrs.org/display/docs/Getting+and+Using+the+MVP-CIEL+Concept+Dictionary","Openmrs 1.11.0 20150227",45905710
+"OPCS4","OPCS Classification of Interventions and Procedures version 4 (NHS)","http://systems.hscic.gov.uk/data/clinicalcoding/codingstandards/opcs4","2021 Release",44819143
+"Episode Type","OMOP Episode Type","OMOP generated",,32542
+"Death Type","OMOP Death Type","OMOP generated",,44819135
+"Note Type","OMOP Note Type","OMOP generated",,44819146
+"ABMS","Provider Specialty (American Board of Medical Specialties)","http://www.abms.org/member-boards/specialty-subspecialty-certificates","2018-06-26 ABMS",45756746
+"Medicare Specialty","Medicare provider/supplier specialty codes (CMS)","http://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/MedicareProviderSupEnroll/Taxonomy.html","2018-06-26 Specialty",44819138
+"RxNorm Extension","OMOP RxNorm Extension","OMOP generated","RxNorm Extension 2025-08-12",252
+"Cost","OMOP Cost","OMOP generated",,581457
+"OSM","OpenStreetMap (OSMF)","https://www.openstreetmap.org/copyright/en, https://wambachers-osm.website/boundaries/","OSM Release 2019-02-21",32541
+"UB04 Point of Origin","UB04 Claim Source Inpatient Admission Code (CMS)","https://www.resdac.org/cms-data/variables/Claim-Source-Inpatient-Admission-Code",,32045
+"UB04 Pt dis status","UB04 Patient Discharge Status Code (CMS)","https://www.resdac.org/cms-data/variables/patient-discharge-status-code",,32047
+"ICD10PCS","ICD-10 Procedure Coding System (CMS)","http://www.cms.gov/Medicare/Coding/ICD10/index.html","ICD10PCS 2026",44819125
+"Korean Revenue Code","Korean Revenue Code (KNHIS)","OMOP generated",,32724
+"Revenue Code","UB04/CMS1450 Revenue Codes (CMS)","http://www.mpca.net/?page=ERC_finance","2010 Release",44819133
+"UB04 Pri Typ of Adm","UB04 Claim Inpatient Admission Type Code (CMS)","https://www.resdac.org/cms-data/variables/Claim-Inpatient-Admission-Type-Code",,32046
+"HemOnc","HemOnc","https://hemonc.org","HemOnc 2024-12-19",32613
+"PCORNet","National Patient-Centered Clinical Research Network (PCORI)","OMOP generated",,44819148
+"Nebraska Lexicon","Nebraska Lexicon (UNMC)","https://www.unmc.edu/pathology-research/bioinformatics/campbell/tdc.html","Nebraska Lexicon 20190816",32757
+"ICDO3","International Classification of Diseases for Oncology, Third Edition (WHO)","https://seer.cancer.gov/icd-o-3/","ICDO3 SEER Site/Histology Released 06/2020",581426
+"Cancer Modifier","Diagnostic Modifiers of Cancer (OMOP)","OMOP generated","Cancer Modifier 20220909",32929
+"Domain","OMOP Domain","OMOP generated",,44819147
+"NCIt","NCI Thesaurus (National Cancer Institute)","http://evs.nci.nih.gov/ftp1/NCI_Thesaurus"," NCIt 20220509",32917
+"CPT4","Current Procedural Terminology version 4 (AMA)","http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html","2025 Release",44819100
+"Language","OMOP Language","OMOP generated","Language 20221030",33069
+"ICD10","International Classification of Diseases, Tenth Revision (WHO)","http://www.who.int/classifications/icd/icdonlineversions/en/","2021 Release",44819124
+"RxNorm","RxNorm (NLM)","http://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html","RxNorm 20250602",44819104
+"NDFRT","National Drug File - Reference Terminology (VA)","http://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html","RXNORM 2018-08-12",44819103
+"NAACCR","Data Standards & Data Dictionary Volume II (NAACCR)","http://datadictionary.naaccr.org/?c=10","NAACCR v18",32642
+"CDM","OMOP Common DataModel","https://github.com/OHDSI/CommonDataModel","CDM v6.0.0",32485
+"PPI","AllOfUs_PPI (Columbia)","http://terminology.pmi-ops.org/CodeSystem/ppi","Codebook Version 0.4.43 + COVID + MHWB + SDOH + PFH + BHP + EHH",581404
+"Type Concept","OMOP Type Concept","OMOP generated","Type Concept 20221030",32808
+"OMOP Genomic","OMOP Genomic vocabulary of known variants involved in disease","OMOP generated","OMOP Genomic 20240216",33002
+"HCPCS","Healthcare Common Procedure Coding System (CMS)","http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html","20250701 Alpha Numeric HCPCS File",44819101
+"Concept Class","OMOP Concept Class","OMOP generated",,44819233
+"UCUM","Unified Code for Units of Measure (Regenstrief Institute)","http://aurora.regenstrief.org/~ucum/ucum.html#section-Alphabetic-Index","Version 1.8.2",44819107
+"CVX","CDC Vaccine Administered CVX (NCIRD)","https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx","CVX 20250703",581400
+"OMOP Extension","OMOP Extension (OHDSI)","OMOP generated","OMOP Extension 20240716",32758
+"MeSH","Medical Subject Headings (NLM)","http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html","2025 Release",44819136
+"SNOMED","Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)","http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html","2025-02-01 SNOMED CT International Edition; 2025-03-01 SNOMED CT US Edition; 2025-04-09 SNOMED CT UK Edition",44819097
+"N3C","N3C","N3C generated","2021-11-10",1

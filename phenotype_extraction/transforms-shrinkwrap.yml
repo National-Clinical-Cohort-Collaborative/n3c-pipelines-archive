@@ -1,0 +1,469 @@
+---
+mappings:
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/care_site"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dc3248b5-ce9a-4f54-a148-bcfba0601ab7"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/condition_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8a33c970-c663-4002-a2dd-d52a487737ab"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/condition_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.17e798ef-2459-4d3a-98ef-ac515b83871a"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/conditions_to_macrovisit"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a4b28e69-f5d8-4398-895b-ec05d0bc6c69"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/control_map"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0d247b3f-a692-4666-90f7-91b086590e90"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/death"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.30625bc6-1286-43aa-b2a8-0bd9e5478a28"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/device_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9495d563-6c37-487c-9379-896e9e0b6d5e"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/drug_era"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.87f4db6c-75be-4e07-aacc-a130d0e6be09"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/drug_exposure"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9c770c82-15d1-4d2f-888a-1f5082077997"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/location"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.be6425e5-d21a-450e-abad-cf0b5aa3f587"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/manifest_harmonized"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f6ca51b5-458f-4232-ae00-355931b45e36"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/measurement"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0f30f7f8-dc17-4f19-b9a7-1297708050ff"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/measurements_to_macrovisits"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.227c3494-02d4-4b7a-82da-a25bb5144267"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/microvisits_to_macrovisits"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.de27cd23-ea8f-4d9f-825e-40b61cd2c1e2"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/note"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.347c98f4-7c15-4b21-9d65-e1946843e29b"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/note_nlp"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.67d2badd-1847-4535-aa4c-4025fa73b8c1"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/observation"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1cb3fc9f-0fc6-4dbd-a1ad-da8bcac8da2a"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/observation_period"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.51186a14-7a8b-401e-b4f8-08e73db19406"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/payer_plan_period"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.e66fde97-f591-42d8-ae29-ace89a587972"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/person"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cd5ed556-a130-4d71-a043-b9c8f36a52c0"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/procedure_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7394de3a-f3fe-4b73-9e61-12858dcd9868"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/procedures_to_macrovisits"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9592371d-4579-47c4-873a-0b0507c6c619"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/provider"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.846a7d46-3086-4f99-a85a-11004281888a"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/visit_detail"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a69b5313-b9a8-4e06-8996-5d4faacde684"
+- alias: "/UNITE/Harmonization - RWD Pipeline - N3C COVID Replica/harmonized/visit_occurrence"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a956594c-7d67-488a-98b5-fb67b899c824"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1d00c719-37db-4106-a038-55a9e8043aff"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.39c39691-eec2-433c-8498-08de9a24f123"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ab935a9c-5295-489f-9320-82cf2b632172"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/conditions_to_macrovisit"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.46d1dc3c-b395-46ae-ad03-632bc440217f"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.2e5dc8b4-8949-4ac2-8852-b18b7ed62da7"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b7622b1d-f120-472b-a8db-3e05a3a53415"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.daaf8276-7fab-4862-a179-57d53201579d"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0664652c-80f0-455c-9a4b-2abe17f27734"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.650174a1-2793-47ea-8882-7650a4f94f4f"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c7c86cc4-f89e-4c4a-a93e-a9027b0560e2"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/manifest_harmonized"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ad4cc883-18bc-4714-b1da-542272ead397"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.49ae89e5-81eb-4644-89e5-5d4486c84cc9"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/measurements_to_macrovisits"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ca19ea3f-35bd-4988-916a-1313cd6f070e"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/microvisits_to_macrovisits"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ccd5610d-6f75-49ab-b533-6e3ba6937825"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.944ad1b2-ca0d-4e47-8615-c34130325146"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3fc20039-e1ee-4cf0-a89e-b0cb5727f918"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9bf19f4a-b2b5-4c6f-9b7e-aa224fd10456"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4df523cf-b07e-494e-b22b-a7082dbc915b"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/payer_plan_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6d0eb67a-ebd7-42d9-8da6-2ce0250b6445"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.45778034-3032-445d-8462-2fd4a00ce799"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9e602001-ae10-4f99-9ecf-a770d95de2dc"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/procedures_to_macrovisits"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1e6aa4dd-7626-4ea5-ba5b-b67bd0c5687d"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.692a1c0f-1d0c-4f5e-a456-12802d5dec8f"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6056e7c2-663e-4ad3-adc6-076714280623"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/cancer/cancer\
+    \ LDS/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0652f5b9-19d6-47c4-8d20-3f0718511f93"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/care_site"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8c66fa05-b81c-40ae-ba80-a0a3907c3245"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/condition_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b4fdcf44-e6ff-4c0f-bc5b-974ca833eec8"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/condition_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.033f87ae-eecf-4ed5-be99-bd842be5d1e9"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/conditions_to_macrovisit"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a3ab96a9-6624-40f4-a75f-2f03f27db243"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/control_map"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.50892112-b587-4b19-b680-de3bc0263faf"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/death"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0fd236f7-b758-4094-92f1-66bd5df6b53c"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/device_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d5650f83-3e1c-4b51-929b-3c75e952ab91"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/drug_era"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f554f34c-eaa4-42e6-981d-16ade40d4d2d"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/drug_exposure"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f05d0d4b-5f15-472b-9a5d-d9cfdeb0c602"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/location"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6c1414f8-f688-48da-9d5e-88a82d79d281"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/manifest_harmonized"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a099385e-35cb-4d0f-9dde-6c2e011ba2c0"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/measurement"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f66d151f-e8e4-48f0-a6ea-be370648ba78"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/measurements_to_macrovisits"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.518b5b77-ea2f-4728-a403-df7d7f8ba037"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/microvisits_to_macrovisits"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.03833da6-bb04-4b8e-bec2-cc387e6fc304"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/note"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.10478084-2546-42ae-8e26-5d2c0c94f554"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/note_nlp"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.094d2505-7fbe-437b-a506-fa3724a9c757"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/observation"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.a291d49a-de14-493d-b71b-2db6937b2eeb"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/observation_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.b46c1e24-8e97-48c7-9205-cd67250ab0f1"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/payer_plan_period"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.363931bd-f291-4bb5-ad00-392736477efe"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/person"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c2180d8d-ae01-4102-9526-9bb1c86b8fba"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/procedure_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.25bb1e2c-ce6b-4be8-9b55-1bc1881ab3be"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/procedures_to_macrovisits"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cc18a233-efac-4614-9339-3ebfec3763c4"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/provider"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.349bae95-5b22-40d5-893a-de6c58a7706f"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/visit_detail"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f19f0878-397f-4ce6-b609-49bb63b6e580"
+- alias: "/UNITE/Phenotype Extraction - RWD Pipeline - Dev Datastream/datasets/renal/renal\
+    \ LDS/visit_occurrence"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ac7802c0-77b6-4486-a534-4c4102d93c6b"
+- alias: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0469a283-692e-4654-bb2e-26922aff9d71"
+- alias: "ri.foundry.main.dataset.17e798ef-2459-4d3a-98ef-ac515b83871a"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.17e798ef-2459-4d3a-98ef-ac515b83871a"
+- alias: "ri.foundry.main.dataset.1de7526c-18e0-4182-8a5d-97b3d6c65798"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1de7526c-18e0-4182-8a5d-97b3d6c65798"
+- alias: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.5cb3c4a3-327a-47bf-a8bf-daf0cafe6772"
+- alias: "ri.foundry.main.dataset.c04b8f5d-7069-4f06-9cb8-7d9bbb4a287c"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c04b8f5d-7069-4f06-9cb8-7d9bbb4a287c"
+- alias: "ri.foundry.main.dataset.cd5ed556-a130-4d71-a043-b9c8f36a52c0"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.cd5ed556-a130-4d71-a043-b9c8f36a52c0"
+- alias: "ri.foundry.main.dataset.d6674f53-0751-42ae-923d-c2608d76f29a"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d6674f53-0751-42ae-923d-c2608d76f29a"
+- alias: "ri.foundry.main.dataset.fcc4f44f-ecb4-4005-b9ef-22009bfdbbe6"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.fcc4f44f-ecb4-4005-b9ef-22009bfdbbe6"

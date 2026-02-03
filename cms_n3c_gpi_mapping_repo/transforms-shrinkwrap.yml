@@ -1,0 +1,22 @@
+---
+mappings:
+- alias: "/UNITE/[PPRL] Centers for Medicare & Medicaid Services (CMS) Release/datasets/datasets/n3c_medicare_medicaid_gpi_mapping_table"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.72aa3288-1005-4fbc-82e5-b70b6729a60a"
+- alias: "ri.foundry.main.dataset.28a81d33-1e43-468d-8217-ef44c7f8fc32"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.28a81d33-1e43-468d-8217-ef44c7f8fc32"
+- alias: "ri.foundry.main.dataset.ae72ccc0-b081-41a8-acf6-24eea9a71b21"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ae72ccc0-b081-41a8-acf6-24eea9a71b21"
+- alias: "ri.foundry.main.dataset.d7a0b290-0aad-43c6-8aee-99851b49561b"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.d7a0b290-0aad-43c6-8aee-99851b49561b"
